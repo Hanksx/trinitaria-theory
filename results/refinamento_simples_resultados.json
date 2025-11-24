@@ -1,0 +1,30 @@
+{
+  "timestamp": "2025-11-23T02:15:08.387049",
+  "test_type": "simplified_refined_theory",
+  "n_galaxies": 3,
+  "results": {
+    "original": [
+      44.14112461655741,
+      67.62646307816073,
+      23.36042368192517
+    ],
+    "improved": [
+      97.66711935992,
+      101.72908059298597,
+      6.256815241840956
+    ],
+    "galaxy_names": [
+      "NGC3198",
+      "NGC2403",
+      "DDO154"
+    ]
+  },
+  "improvements_implemented": [
+    "Perfil de bulge de Vaucouleurs",
+    "Disco exponencial preciso",
+    "Corre\u00e7\u00e3o gasosa conservadora",
+    "Escala Trinit\u00e1ria ajustada",
+    "Limitadores mais est\u00e1veis",
+    "Verifica\u00e7\u00f5es de sanidade"
+  ]
+}

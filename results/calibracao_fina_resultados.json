@@ -1,0 +1,96 @@
+{
+  "timestamp": "2025-11-23T03:10:45.171131",
+  "target_improvement": 26.3,
+  "tolerance": 1.0,
+  "best_params": {
+    "fractal_scale": 0.01,
+    "magnetic_penetration": 0.1,
+    "ngc2403_boost": 0.8,
+    "coupling_intensity": 0.8,
+    "improvement_percent": 0.6665426782949389,
+    "error": 25.633457321705063
+  },
+  "total_tested": 188160,
+  "top_10_results": [
+    {
+      "fractal_scale": 0.01,
+      "magnetic_penetration": 0.1,
+      "ngc2403_boost": 0.8,
+      "coupling_intensity": 0.8,
+      "improvement_percent": 0.6665426782949389,
+      "error_from_target": 25.633457321705063
+    },
+    {
+      "fractal_scale": 0.01,
+      "magnetic_penetration": 0.1,
+      "ngc2403_boost": 0.8,
+      "coupling_intensity": 0.8500000000000001,
+      "improvement_percent": 0.6665426782949389,
+      "error_from_target": 25.633457321705063
+    },
+    {
+      "fractal_scale": 0.01,
+      "magnetic_penetration": 0.1,
+      "ngc2403_boost": 0.8,
+      "coupling_intensity": 0.9000000000000001,
+      "improvement_percent": 0.6665426782949389,
+      "error_from_target": 25.633457321705063
+    },
+    {
+      "fractal_scale": 0.01,
+      "magnetic_penetration": 0.1,
+      "ngc2403_boost": 0.8,
+      "coupling_intensity": 0.9500000000000002,
+      "improvement_percent": 0.6665426782949389,
+      "error_from_target": 25.633457321705063
+    },
+    {
+      "fractal_scale": 0.01,
+      "magnetic_penetration": 0.1,
+      "ngc2403_boost": 0.8,
+      "coupling_intensity": 1.0000000000000002,
+      "improvement_percent": 0.6665426782949389,
+      "error_from_target": 25.633457321705063
+    },
+    {
+      "fractal_scale": 0.01,
+      "magnetic_penetration": 0.1,
+      "ngc2403_boost": 0.8,
+      "coupling_intensity": 1.0500000000000003,
+      "improvement_percent": 0.6665426782949389,
+      "error_from_target": 25.633457321705063
+    },
+    {
+      "fractal_scale": 0.01,
+      "magnetic_penetration": 0.1,
+      "ngc2403_boost": 0.8,
+      "coupling_intensity": 1.1000000000000003,
+      "improvement_percent": 0.6665426782949389,
+      "error_from_target": 25.633457321705063
+    },
+    {
+      "fractal_scale": 0.01,
+      "magnetic_penetration": 0.1,
+      "ngc2403_boost": 0.8,
+      "coupling_intensity": 1.1500000000000004,
+      "improvement_percent": 0.6665426782949389,
+      "error_from_target": 25.633457321705063
+    },
+    {
+      "fractal_scale": 0.01,
+      "magnetic_penetration": 0.1,
+      "ngc2403_boost": 0.8,
+      "coupling_intensity": 1.2000000000000004,
+      "improvement_percent": 0.6665426782949389,
+      "error_from_target": 25.633457321705063
+    },
+    {
+      "fractal_scale": 0.01,
+      "magnetic_penetration": 0.1,
+      "ngc2403_boost": 0.8,
+      "coupling_intensity": 1.2500000000000004,
+      "improvement_percent": 0.6665426782949389,
+      "error_from_target": 25.633457321705063
+    }
+  ]
+}

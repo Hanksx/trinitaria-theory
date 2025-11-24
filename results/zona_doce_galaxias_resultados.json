@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-11-23T14:43:46.997566",
+  "analysis_type": "Zona_Doce_Galaxy_Analysis",
+  "galaxies_analyzed": 6,
+  "zona_doce_candidates": 4,
+  "optimal_config_used": {
+    "name": "zona_doce_optimized",
+    "B_central": 10.2,
+    "B_critical": 18.0,
+    "v_magnetic_max": 25.0,
+    "magnetic_penetration": 0.9,
+    "amplification": 0.45,
+    "decay_scale": 6.8,
+    "decay_rate": 2.0,
+    "mod_strength": 0.18,
+    "concentration": 0.35,
+    "L": 7.0,
+    "Q": 4.2,
+    "forma_params": [
+      2.6,
+      0.13,
+      26.5
+    ],
+    "limiter_factor": 1.15,
+    "relativistic_correction": 0.06,
+    "quantum_coupling": 0.1,
+    "coherence_length": 4.5,
+    "nonlinear_factor": 1.25,
+    "synergy_factor": 0.08,
+    "boost_factor": 1.2
+  },
+  "results_summary": {
+    "average_improvement": -54.002533486908796,
+    "best_improvement": -35.78635645853817,
+    "status": "ZONA_DOCE_MODERADA"
+  },
+  "detailed_results": {
+    "NGC2403": {
+      "zona_doce_score": 0.82996632996633,
+      "rms": 69.02609538945067,
+      "improvement": -66.42173057843675,
+      "galaxy_properties": {
+        "M_total": 45000000000.0,
+        "bulge_fraction": 0.1111111111111111,
+        "v_max": 

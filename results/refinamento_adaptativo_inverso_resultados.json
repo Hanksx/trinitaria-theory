@@ -1,0 +1,81 @@
+{
+  "timestamp": "2025-11-23T02:19:26.965360",
+  "test_type": "adaptive_inverse_refinement",
+  "n_galaxies": 5,
+  "strategy": {
+    "light_galaxies": "Complete refinement (factor 1.2)",
+    "medium_galaxies": "Standard refinement (factor 1.0)",
+    "heavy_galaxies": "Inverse refinement - simplification (factor 0.7)"
+  },
+  "results": {
+    "original": [
+      23.36042368192517,
+      67.62646307816073,
+      44.14112461655741,
+      21.63805363831117,
+      37.40642387870961
+    ],
+    "adaptive": [
+      6.659802898443626,
+      83.41772522470274,
+      89.81721130856586,
+      99.14432632833164,
+      63.96404239700074
+    ],
+    "galaxy_names": [
+      "DDO154",
+      "NGC2403",
+      "NGC3198",
+      "NGC6946",
+      "NGC300"
+    ],
+    "categories": [
+      "light",
+      "medium",
+      "heavy",
+      "heavy",
+      "light"
+    ],
+    "masses": [
+      1100000000.0,
+      45000000000.0,
+      93500000000.0,
+      95000000000.0,
+      9500000000.0
+    ]
+  },
+  "category_analysis": {
+    "light": {
+      "avg_original": 30.38342378031739,
+      "avg_adaptive": 35.311922647722184,
+      "improvement": -4.9284988674047945,
+      "percent": -16.221012164526083,
+      "n_galaxies": 2,
+      "galaxies": [
+        "DDO154",
+        "NGC300"
+      ]
+    },
+    "medium": {
+      "avg_original": 67.62646307816073,
+      "avg_adaptive": 83.41772522470274,
+      "improvement": -15.79126214654201,
+      "percent": -23.35071424375828,
+      "n_galaxies": 1,
+      "galaxies": [
+        "NGC2403"
+      ]
+    },
+    "heavy": {
+      "avg_original": 32.88958912743429,
+      "avg_adaptive": 94.48076881844875,
+      "improvement": -61.59117969101446,
+      "percent": -187.26649169247062,
+      "n_galaxies": 2,
+      "galaxies": [
+        "NGC3198",
+        "NGC6946"
+      ]
+    }
+  }
+}

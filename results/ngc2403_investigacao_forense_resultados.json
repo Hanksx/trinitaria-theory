@@ -1,0 +1,280 @@
+{
+  "timestamp": "2025-11-23T13:29:33.846074",
+  "analysis_type": "NGC2403_Complete_Forensic_Analysis",
+  "unique_properties": {
+    "M_total": 45000000000.0,
+    "M_bulge_ratio": 0.1111111111111111,
+    "M_disk_ratio": 0.8888888888888888,
+    "v_max": 87.88213878625614,
+    "v_central": 27.87657132606764,
+    "v_outer": 31.141536904825635,
+    "r_max": 15.143251861259774,
+    "dv_dr_central": 57.15192425539226,
+    "dv_dr_max": 57.15192425539226,
+    "dv_dr_min": -6.0657311092927895,
+    "v_max_over_sqrt_M": 0.00041428037520626016,
+    "specific_angular_momentum": 1330.821361746463,
+    "r_90_percent": 2.7516587598446662,
+    "plateau_mean": 67.20820927118811,
+    "plateau_std": 18.277442320943646,
+    "disk_surface_density": 0
+  },
+  "theoretical_analysis": {
+    "rms_original": 67.63,
+    "theoretical_best_rms": 7.801378911287994,
+    "theoretical_max_improvement": 59.828621088712,
+    "theoretical_max_percent": 88.46461790435013,
+    "historical_improvement": 18.99,
+    "historical_percent": 28.1,
+    "efficiency": 31.740661333046976,
+    "remaining_potential": 60.36461790435013
+  },
+  "parameter_scans": {
+    "B_central": [
+      {
+        "param_value": 8.0,
+        "rms_final": 67.62646307816073,
+        "improvement": 0.003536921839270235,
+        "percent_improvement": 0.0052298119758542585
+      },
+      {
+        "param_value": 8.599999999999998,
+        "rms_final": 67.62646307816073,
+        "improvement": 0.003536921839270235,
+        "percent_improvement": 0.0052298119758542585
+      },
+      {
+        "param_value": 9.199999999999996,
+        "rms_final": 67.62646307816073,
+        "improvement": 0.003536921839270235,
+        "percent_improvement": 0.0052298119758542585
+      },
+      {
+        "param_value": 9.799999999999994,
+        "rms_final": 67.62646307816073,
+        "improvement": 0.003536921839270235,
+        "percent_improvement": 0.0052298119758542585
+      },
+      {
+        "param_value": 10.399999999999991,
+        "rms_final": 67.62646307816073,
+        "improvement": 0.003536921839270235,
+        "percent_improvement": 0.0052298119758542585
+      },
+      {
+        "param_value": 10.99999999999999,
+        "rms_final": 67.62646307816073,
+        "improvement": 0.003536921839270235,
+        "percent_improvement": 0.0052298119758542585
+      },
+      {
+        "param_value": 11.599999999999987,
+        "rms_final": 67.62646307816073,
+        "improvement": 0.003536921839270235,
+        "percent_improvement": 0.0052298119758542585
+      },
+      {
+        "param_value": 12.199999999999985,
+        "rms_final": 67.62646307816073,
+        "improvement": 0.003536921839270235,
+        "percent_improvement": 0.0052298119758542585
+      },
+      {
+        "param_value": 12.799999999999983,
+        "rms_final": 67.62646307816073,
+        "improvement": 0.003536921839270235,
+        "percent_improvement": 0.0052298119758542585
+      },
+      {
+        "param_value": 13.39999999999998,
+        "rms_final": 67.62646307816073,
+        "improvement": 0.003536921839270235,
+        "percent_improvement": 0.0052298119758542585
+      },
+      {
+        "param_value": 13.999999999999979,
+        "rms_final": 67.62646307816073,
+        "improvement": 0.003536921839270235,
+        "percent_improvement": 0.0052298119758542585
+      },
+      {
+        "param_value": 14.599999999999977,
+        "rms_final": 67.62646307816073,
+        "improvement": 0.003536921839270235,
+        "percent_improvement": 0.0052298119758542585
+      }
+    ],
+    "B_critical": [
+      {
+        "param_value": 12.0,
+        "rms_final": 67.62646307816073,
+        "improvement": 0.003536921839270235,
+        "percent_improvement": 0.0052298119758542585
+      },
+      {
+        "param_value": 13.5,
+        "rms_final": 67.62646307816073,
+        "improvement": 0.003536921839270235,
+        "percent_improvement": 0.0052298119758542585
+      },
+      {
+        "param_value": 15.0,
+        "rms_final": 67.62646307816073,
+        "improvement": 0.003536921839270235,
+        "percent_improvement": 0.0052298119758542585
+      },
+      {
+        "param_value": 16.5,
+        "rms_final": 67.62646307816073,
+        "improvement": 0.003536921839270235,
+        "percent_improvement": 0.0052298119758542585
+      },
+      {
+        "param_value": 18.0,
+        "rms_final": 67.62646307816073,
+        "improvement": 0.003536921839270235,
+        "percent_improvement": 0.0052298119758542585
+      },
+      {
+        "param_value": 19.5,
+        "rms_final": 67.62646307816073,
+        "improvement": 0.003536921839270235,
+        "percent_improvement": 0.0052298119758542585
+      }
+    ],
+    "mod_strength": [
+      {
+        "param_value": 0.1,
+        "rms_final": 67.62646307816073,
+        "improvement": 0.003536921839270235,
+        "percent_improvement": 0.0052298119758542585
+      },
+      {
+        "param_value": 0.13,
+        "rms_final": 67.62646307816073,
+        "improvement": 0.003536921839270235,
+        "percent_improvement": 0.0052298119758542585
+      },
+      {
+        "param_value": 0.15999999999999998,
+        "rms_final": 67.62646307816073,
+        "improvement": 0.003536921839270235,
+        "percent_improvement": 0.0052298119758542585
+      },
+      {
+        "param_value": 0.18999999999999995,
+        "rms_final": 67.62646307816073,
+        "improvement": 0.003536921839270235,
+        "percent_improvement": 0.0052298119758542585
+      },
+      {
+        "param_value": 0.21999999999999995,
+        "rms_final": 67.62646307816073,
+        "improvement": 0.003536921839270235,
+        "percent_improvement": 0.0052298119758542585
+      }
+    ]
+  },
+  "grid_search_results": [
+    {
+      "params": {
+        "B_central": 10.99999999999999,
+        "B_critical": 17.0,
+        "mod_strength": 0.15999999999999998
+      },
+      "rms_final": 49.39427372388619,
+      "improvement": 18.23572627611381,
+      "percent_improvement": 26.9639601894334
+    },
+    {
+      "params": {
+        "B_central": 12.999999999999982,
+        "B_critical": 15.0,
+        "mod_strength": 0.15999999999999998
+      },
+      "rms_final": 49.98052251170454,
+      "improvement": 17.649477488295453,
+      "percent_improvement": 26.097112950311185
+    },
+    {
+      "params": {
+        "B_central": 9.999999999999993,
+        "B_critical": 16.0,
+        "mod_strength": 0.15999999999999998
+      },
+      "rms_final": 49.99815050500917,
+      "improvement": 17.631849494990824,
+      "percent_improvement": 26.071047604599773
+    },
+    {
+      "params": {
+        "B_central": 11.999999999999986,
+        "B_critical": 16.0,
+        "mod_strength": 0.15999999999999998
+      },
+      "rms_final": 50.16644767293487,
+      "improvement": 17.463552327065123,
+      "percent_improvement": 25.822197733350766
+    },
+    {
+      "params": {
+        "B_central": 10.99999999999999,
+        "B_critical": 15.0,
+        "mod_strength": 0.15999999999999998
+      },
+      "rms_final": 50.384403713428014,
+      "improvement": 17.24559628657198,
+      "percent_improvement": 25.499920577512913
+    },
+    {
+      "params": {
+        "B_central": 8.999999999999996,
+        "B_critical": 15.0,
+        "mod_strength": 0.1
+      },
+      "rms_final": 50.658234903624255,
+      "improvement": 16.97176509637574,
+      "percent_improvement": 25.095024539961173
+    },
+    {
+      "params": {
+        "B_central": 9.999999999999993,
+        "B_critical": 16.0,
+        "mod_strength": 0.13999999999999999
+      },
+      "rms_final": 50.672805031380705,
+      "improvement": 16.95719496861929,
+      "percent_improvement": 25.073480657429087
+    },
+    {
+      "params": {
+        "B_central": 11.999999999999986,
+        "B_critical": 19.0,
+        "mod_strength": 0.15999999999999998
+      },
+      "rms_final": 51.14094110770407,
+      "improvement": 16.489058892295922,
+      "percent_improvement": 24.381278858932316
+    },
+    {
+      "params": {
+        "B_central": 8.0,
+        "B_critical": 14.0,
+        "mod_strength": 0.13999999999999999
+      },
+      "rms_final": 51.23502476054265,
+      "improvement": 16.394975239457345,
+      "percent_improvement": 24.242163595234874
+    },
+    {
+      "params": {
+        "B_central": 11.999999999999986,
+        "B_critical": 13.0,
+        "mod_strength": 0.1
+      },
+      "rms_final": 51.28487987446117,
+      "improvement": 16.345120125538827,
+      "percent_improvement": 24.16844614156266
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-11-23T01:14:31.320179",
+  "execution_time_seconds": 1.556661,
+  "galaxy_counts": {
+    "light": 24,
+    "medium": 16,
+    "heavy": 10
+  },
+  "optimal_limiters": {
+    "light": 0.7999999999999999,
+    "medium": 0.9000000000000004,
+    "heavy": 0.9400000000000002
+  },
+  "category_performance": {
+    "light": {
+      "optimal_limiter": 0.7999999999999999,
+      "avg_rms": 33.78589810651021,
+      "avg_improvement": 0.17883282229293385,
+      "success_rate": 54.166666666666664
+    },
+    "medium": {
+      "optimal_limiter": 0.9000000000000004,
+      "avg_rms": 42.31637624271612,
+      "avg_improvement": 0.6407321406374696,
+      "success_rate": 50.0
+    },
+    "heavy": {
+      "optimal_limiter": 0.9400000000000002,
+      "avg_rms": 59.19361445301443,
+      "avg_improvement": 4.180472500898672,
+      "success_rate": 70.0
+    }
+  },
+  "adaptive_system_performance": {
+    "adaptive_avg": 41.59719437939694,
+    "baseline_avg": 42.72416291928127,
+    "improvement": 1.1269685398843308,
+    "success_rate": 56.00000000000001
+  }
+}

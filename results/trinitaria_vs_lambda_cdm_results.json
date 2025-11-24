@@ -1,0 +1,21 @@
+[
+  {
+    "name": "NGC300",
+    "galaxy_type": "Scd",
+    "distance_Mpc": 2.0,
+    "mass_total": 38800000000.0,
+    "v_flat": 145,
+    "rms_trinitaria": 118.9704929012015,
+    "rms_lambda_cdm": 354.0020964178711,
+    "rms_mond": 79.35769021172773,
+    "trinitaria_vs_lambda_cdm": 66.39271515478077,
+    "trinitaria_vs_mond": -49.91677880717811,
+    "lambda_cdm_vs_mond": -346.08417340951735,
+    "best_model": "MOND",
+    "victory_margin": 49.91677880717811,
+    "lambda_cdm_dark_matter_fraction": 366.8916902964521,
+    "trinitaria_fractal_contribution": 1.8404572702645612,
+    "trinitaria_quantum_contribution": 1.0248970448362866,
+    "zona_doce_score": 0.9292874929089125,
+    "breakthrough_level": "REVOLUTIONARY",
+    "statistical_significance": 

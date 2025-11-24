@@ -1,0 +1,166 @@
+{
+  "timestamp": "2025-11-23T14:32:40.497445",
+  "analysis_type": "Multiple_Refinement_Levels_Test",
+  "baseline_rms": 67.63,
+  "configurations_tested": {
+    "conservador": {
+      "rms": 30.80982673636948,
+      "improvement": 54.44355058942853,
+      "config": {
+        "name": "hybrid_breakthrough_calibrado",
+        "B_central": 10.2,
+        "B_critical": 18.0,
+        "amplification": 0.42,
+        "suppression": 0.28,
+        "magnetic_penetration": 0.85,
+        "decay_scale": 7.0,
+        "v_magnetic_max": 20.0,
+        "decay_rate": 2.05,
+        "mod_strength": 0.175,
+        "concentration": 0.28800000000000003,
+        "L": 7.1,
+        "Q": 4.3,
+        "forma_params": [
+          2.55,
+          0.135,
+          26.0
+        ],
+        "limiter_factor": 1.12,
+        "relativistic_correction": 0.025,
+        "quantum_coupling": 0.04,
+        "nonlinear_factor": 1.15,
+        "coherence_length": 5.0,
+        "symmetry_breaking": 0.06
+      }
+    },
+    "moderado": {
+      "rms": 31.125120623701584,
+      "improvement": 53.977346408839885,
+      "config": {
+        "name": "hybrid_breakthrough_calibrado",
+        "B_central": 10.2,
+        "B_critical": 18.0,
+        "amplification": 0.42,
+        "suppression": 0.28,
+        "magnetic_penetration": 0.85,
+        "decay_scale": 7.0,
+        "v_magnetic_max": 25.0,
+        "decay_rate": 2.05,
+        "mod_strength": 0.175,
+        "concentration": 0.32,
+        "L": 7.1,
+        "Q": 4.3,
+        "forma_params": [
+          2.55,
+          0.135,
+          26.0
+        ],
+        "limiter_factor": 1.12,
+        "relativistic_correction": 0.034999999999999996,
+        "quantum_coupling": 0.055999999999999994,
+        "nonlinear_factor": 1.15,
+        "coherence_length": 5.0,
+        "symmetry_breaking": 0.06
+      }
+    },
+    "agressivo": {
+      "rms": 31.668383407874757,
+      "improvement": 53.1740597251593,
+      "config": {
+        "name": "hybrid_breakthrough_calibrado",
+        "B_central": 10.2,
+        "B_critical": 18.0,
+        "amplification": 0.42,
+        "suppression": 0.28,
+        "magnetic_penetration": 0.85,
+        "decay_scale": 7.0,
+        "v_magnetic_max": 30.0,
+        "decay_rate": 2.05,
+        "mod_strength": 0.175,
+        "concentration": 0.35200000000000004,
+        "L": 7.1,
+        "Q": 4.3,
+        "forma_params": [
+          2.55,
+          0.135,
+          26.0
+        ],
+        "limiter_factor": 1.12,
+        "relativistic_correction": 0.05,
+        "quantum_coupling": 0.08,
+        "nonlinear_factor": 1.15,
+        "coherence_length": 5.0,
+        "symmetry_breaking": 0.06
+      }
+    },
+    "extremo": {
+      "rms": 32.090251502330716,
+      "improvement": 52.55027132584546,
+      "config": {
+        "name": "hybrid_breakthrough_calibrado",
+        "B_central": 10.2,
+        "B_critical": 18.0,
+        "amplification": 0.42,
+        "suppression": 0.28,
+        "magnetic_penetration": 0.85,
+        "decay_scale": 7.0,
+        "v_magnetic_max": 32.5,
+        "decay_rate": 2.05,
+        "mod_strength": 0.175,
+        "concentration": 0.384,
+        "L": 7.1,
+        "Q": 4.3,
+        "forma_params": [
+          2.55,
+          0.135,
+          26.0
+        ],
+        "limiter_factor": 1.12,
+        "relativistic_correction": 0.06,
+        "quantum_coupling": 0.096,
+        "nonlinear_factor": 1.15,
+        "coherence_length": 5.0,
+        "symmetry_breaking": 0.06
+      }
+    }
+  },
+  "best_configuration": {
+    "name": "conservador",
+    "rms": 30.80982673636948,
+    "improvement_percent": 54.44355058942853,
+    "vs_lambda_cdm": 58.92023101817403,
+    "vs_mond": 46.879609075225034,
+    "breakthrough_status": "CONFIRMADO",
+    "parameters": {
+      "name": "hybrid_breakthrough_calibrado",
+      "B_central": 10.2,
+      "B_critical": 18.0,
+      "amplification": 0.42,
+      "suppression": 0.28,
+      "magnetic_penetration": 0.85,
+      "decay_scale": 7.0,
+      "v_magnetic_max": 20.0,
+      "decay_rate": 2.05,
+      "mod_strength": 0.175,
+      "concentration": 0.28800000000000003,
+      "L": 7.1,
+      "Q": 4.3,
+      "forma_params": [
+        2.55,
+        0.135,
+        26.0
+      ],
+      "limiter_factor": 1.12,
+      "relativistic_correction": 0.025,
+      "quantum_coupling": 0.04,
+      "nonlinear_factor": 1.15,
+      "coherence_length": 5.0,
+      "symmetry_breaking": 0.06
+    }
+  },
+  "comparison_theories": {
+    "lambda_cdm_rms": 75.0,
+    "mond_rms": 58.0,
+    "trinitaria_historical_rms": 48.6
+  }
+}

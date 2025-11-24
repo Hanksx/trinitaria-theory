@@ -1,0 +1,139 @@
+{
+  "timestamp": "2025-11-23T00:35:18.306546",
+  "results_by_config": {
+    "APENAS_FRACTAL": {
+      "light": {
+        "mean_rms": 34.10049926076523,
+        "success_rate": 0.3125,
+        "success_count": 5,
+        "total_galaxies": 16
+      },
+      "medium": {
+        "mean_rms": 32.52065326565657,
+        "success_rate": 0.17647058823529413,
+        "success_count": 3,
+        "total_galaxies": 17
+      },
+      "heavy": {
+        "mean_rms": 59.89048229224456,
+        "success_rate": 0.17647058823529413,
+        "success_count": 3,
+        "total_galaxies": 17
+      },
+      "overall": {
+        "mean_rms": 42.17054493955546,
+        "success_rate": 0.22,
+        "success_count": 11,
+        "total_galaxies": 50
+      }
+    },
+    "FRACTAL_CENTRIFUGA": {
+      "light": {
+        "mean_rms": 35.096713402774284,
+        "success_rate": 0.3125,
+        "success_count": 5,
+        "total_galaxies": 16
+      },
+      "medium": {
+        "mean_rms": 33.67754318804109,
+        "success_rate": 0.17647058823529413,
+        "success_count": 3,
+        "total_galaxies": 17
+      },
+      "heavy": {
+        "mean_rms": 59.9405672388073,
+        "success_rate": 0.17647058823529413,
+        "success_count": 3,
+        "total_galaxies": 17
+      },
+      "overall": {
+        "mean_rms": 42.90494127654089,
+        "success_rate": 0.22,
+        "success_count": 11,
+        "total_galaxies": 50
+      }
+    },
+    "FRACTAL_EM": {
+      "light": {
+        "mean_rms": 34.561948975811106,
+        "success_rate": 0.3125,
+        "success_count": 5,
+        "total_galaxies": 16
+      },
+      "medium": {
+        "mean_rms": 32.668403597622856,
+        "success_rate": 0.17647058823529413,
+        "success_count": 3,
+        "total_galaxies": 17
+      },
+      "heavy": {
+        "mean_rms": 59.911880536464615,
+        "success_rate": 0.17647058823529413,
+        "success_count": 3,
+        "total_galaxies": 17
+      },
+      "overall": {
+        "mean_rms": 42.38074436996619,
+        "success_rate": 0.22,
+        "success_count": 11,
+        "total_galaxies": 50
+      }
+    },
+    "FISICA_COMPLETA": {
+      "light": {
+        "mean_rms": 35.33323895595507,
+        "success_rate": 0.3125,
+        "success_count": 5,
+        "total_galaxies": 16
+      },
+      "medium": {
+        "mean_rms": 33.792342910467134,
+        "success_rate": 0.17647058823529413,
+        "success_count": 3,
+        "total_galaxies": 17
+      },
+      "heavy": {
+        "mean_rms": 59.96203845413386,
+        "success_rate": 0.17647058823529413,
+        "success_count": 3,
+        "total_galaxies": 17
+      },
+      "overall": {
+        "mean_rms": 43.029206773518695,
+        "success_rate": 0.22,
+        "success_count": 11,
+        "total_galaxies": 50
+      }
+    },
+    "FISICA_BALANCEADA": {
+      "light": {
+        "mean_rms": 35.12666179402325,
+        "success_rate": 0.3125,
+        "success_count": 5,
+        "total_galaxies": 16
+      },
+      "medium": {
+        "mean_rms": 33.723117122161014,
+        "success_rate": 0.17647058823529413,
+        "success_count": 3,
+        "total_galaxies": 17
+      },
+      "heavy": {
+        "mean_rms": 60.015159988265964,
+        "success_rate": 0.17647058823529413,
+        "success_count": 3,
+        "total_galaxies": 17
+      },
+      "overall": {
+        "mean_rms": 42.954979634816745,
+        "success_rate": 0.22,
+        "success_count": 11,
+        "total_galaxies": 50
+      }
+    }
+  },
+  "best_configs": {
+    "best_rms": "APENAS_FRACTAL",
+    "best_success": "APENAS_FRACTAL"
+  }
+}

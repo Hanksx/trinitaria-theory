@@ -1,0 +1,378 @@
+{
+  "timestamp": "2025-11-23T13:11:29.889797",
+  "model_type": "FineOptimizationTrinitariaModel",
+  "base_conservative": 1.04,
+  "target_improvement": "+26.3% for NGC2403",
+  "best_variation": "v3_balanced_boost",
+  "best_improvement": 1.039298237262812,
+  "improvement_gain": -0.0007017627371881385,
+  "all_results": {
+    "v1_enhanced_fractal": [
+      {
+        "galaxy_name": "NGC2403",
+        "is_ngc2403_special": true,
+        "classification_confidence": 1.0,
+        "variation": "v1_enhanced_fractal",
+        "strategy": "NGC2403-v1_enhanced_fractal (coupling: 2.63)",
+        "rms_base": 67.62646307816073,
+        "rms_final": 66.9396630866232,
+        "improvement": 0.6867999915375265,
+        "percent_improvement": 1.0155787546418666,
+        "magnetic_effect": 19.5,
+        "variation_params": {
+          "v_magnetic_max": 15.0,
+          "B_critical": 18.0,
+          "amplification": 0.35,
+          "suppression": 0.35,
+          "magnetic_penetration": 0.75,
+          "coupling_intensity": 1.8,
+          "fractal_scale_factor": 0.4,
+          "ngc2403_boost": 1.3
+        }
+      },
+      {
+        "galaxy_name": "MW",
+        "is_ngc2403_special": false,
+        "classification_confidence": 0.0,
+        "variation": "v1_enhanced_fractal",
+        "strategy": "Conservative-v1_enhanced_fractal",
+        "rms_base": 102.8581548621057,
+        "rms_final": 102.73571143672652,
+        "improvement": 0.1224434253791884,
+        "percent_improvement": 0.11904104788126836,
+        "magnetic_effect": 0.0,
+        "variation_params": {
+          "v_magnetic_max": 15.0,
+          "B_critical": 18.0,
+          "amplification": 0.35,
+          "suppression": 0.35,
+          "magnetic_penetration": 0.75,
+          "coupling_intensity": 1.8,
+          "fractal_scale_factor": 0.4,
+          "ngc2403_boost": 1.3
+        }
+      },
+      {
+        "galaxy_name": "NGC6503",
+        "is_ngc2403_special": false,
+        "classification_confidence": 0.0,
+        "variation": "v1_enhanced_fractal",
+        "strategy": "Conservative-v1_enhanced_fractal",
+        "rms_base": 37.97121568077503,
+        "rms_final": 38.03212714437838,
+        "improvement": -0.06091146360334676,
+        "percent_improvement": -0.16041483663686454,
+        "magnetic_effect": 0.0,
+        "variation_params": {
+          "v_magnetic_max": 15.0,
+          "B_critical": 18.0,
+          "amplification": 0.35,
+          "suppression": 0.35,
+          "magnetic_penetration": 0.75,
+          "coupling_intensity": 1.8,
+          "fractal_scale_factor": 0.4,
+          "ngc2403_boost": 1.3
+        }
+      }
+    ],
+    "v2_optimized_coupling": [
+      {
+        "galaxy_name": "NGC2403",
+        "is_ngc2403_special": true,
+        "classification_confidence": 1.0,
+        "variation": "v2_optimized_coupling",
+        "strategy": "NGC2403-v2_optimized_coupling (coupling: 2.59)",
+        "rms_base": 67.62646307816073,
+        "rms_final": 66.94084448934541,
+        "improvement": 0.6856185888153163,
+        "percent_improvement": 1.0138318013510452,
+        "magnetic_effect": 20.0,
+        "variation_params": {
+          "v_magnetic_max": 16.0,
+          "B_critical": 19.0,
+          "amplification": 0.32,
+          "suppression": 0.38,
+          "magnetic_penetration": 0.72,
+          "coupling_intensity": 1.6,
+          "fractal_scale_factor": 0.35,
+          "ngc2403_boost": 1.25
+        }
+      },
+      {
+        "galaxy_name": "MW",
+        "is_ngc2403_special": false,
+        "classification_confidence": 0.0,
+        "variation": "v2_optimized_coupling",
+        "strategy": "Conservative-v2_optimized_coupling",
+        "rms_base": 102.8581548621057,
+        "rms_final": 102.73571143672652,
+        "improvement": 0.1224434253791884,
+        "percent_improvement": 0.11904104788126836,
+        "magnetic_effect": 0.0,
+        "variation_params": {
+          "v_magnetic_max": 16.0,
+          "B_critical": 19.0,
+          "amplification": 0.32,
+          "suppression": 0.38,
+          "magnetic_penetration": 0.72,
+          "coupling_intensity": 1.6,
+          "fractal_scale_factor": 0.35,
+          "ngc2403_boost": 1.25
+        }
+      },
+      {
+        "galaxy_name": "NGC6503",
+        "is_ngc2403_special": false,
+        "classification_confidence": 0.0,
+        "variation": "v2_optimized_coupling",
+        "strategy": "Conservative-v2_optimized_coupling",
+        "rms_base": 37.97121568077503,
+        "rms_final": 38.03212714437838,
+        "improvement": -0.06091146360334676,
+        "percent_improvement": -0.16041483663686454,
+        "magnetic_effect": 0.0,
+        "variation_params": {
+          "v_magnetic_max": 16.0,
+          "B_critical": 19.0,
+          "amplification": 0.32,
+          "suppression": 0.38,
+          "magnetic_penetration": 0.72,
+          "coupling_intensity": 1.6,
+          "fractal_scale_factor": 0.35,
+          "ngc2403_boost": 1.25
+        }
+      }
+    ],
+    "v3_balanced_boost": [
+      {
+        "galaxy_name": "NGC2403",
+        "is_ngc2403_special": true,
+        "classification_confidence": 1.0,
+        "variation": "v3_balanced_boost",
+        "strategy": "NGC2403-v3_balanced_boost (coupling: 2.69)",
+        "rms_base": 67.62646307816073,
+        "rms_final": 66.92362243946621,
+        "improvement": 0.7028406386945107,
+        "percent_improvement": 1.039298237262812,
+        "magnetic_effect": 18.56,
+        "variation_params": {
+          "v_magnetic_max": 14.5,
+          "B_critical": 20.5,
+          "amplification": 0.33,
+          "suppression": 0.37,
+          "magnetic_penetration": 0.73,
+          "coupling_intensity": 1.7,
+          "fractal_scale_factor": 0.38,
+          "ngc2403_boost": 1.28
+        }
+      },
+      {
+        "galaxy_name": "MW",
+        "is_ngc2403_special": false,
+        "classification_confidence": 0.0,
+        "variation": "v3_balanced_boost",
+        "strategy": "Conservative-v3_balanced_boost",
+        "rms_base": 102.8581548621057,
+        "rms_final": 102.73571143672652,
+        "improvement": 0.1224434253791884,
+        "percent_improvement": 0.11904104788126836,
+        "magnetic_effect": 0.0,
+        "variation_params": {
+          "v_magnetic_max": 14.5,
+          "B_critical": 20.5,
+          "amplification": 0.33,
+          "suppression": 0.37,
+          "magnetic_penetration": 0.73,
+          "coupling_intensity": 1.7,
+          "fractal_scale_factor": 0.38,
+          "ngc2403_boost": 1.28
+        }
+      },
+      {
+        "galaxy_name": "NGC6503",
+        "is_ngc2403_special": false,
+        "classification_confidence": 0.0,
+        "variation": "v3_balanced_boost",
+        "strategy": "Conservative-v3_balanced_boost",
+        "rms_base": 37.97121568077503,
+        "rms_final": 38.03212714437838,
+        "improvement": -0.06091146360334676,
+        "percent_improvement": -0.16041483663686454,
+        "magnetic_effect": 0.0,
+        "variation_params": {
+          "v_magnetic_max": 14.5,
+          "B_critical": 20.5,
+          "amplification": 0.33,
+          "suppression": 0.37,
+          "magnetic_penetration": 0.73,
+          "coupling_intensity": 1.7,
+          "fractal_scale_factor": 0.38,
+          "ngc2403_boost": 1.28
+        }
+      }
+    ],
+    "v4_magnetic_focus": [
+      {
+        "galaxy_name": "NGC2403",
+        "is_ngc2403_special": true,
+        "classification_confidence": 1.0,
+        "variation": "v4_magnetic_focus",
+        "strategy": "NGC2403-v4_magnetic_focus (coupling: 2.59)",
+        "rms_base": 67.62646307816073,
+        "rms_final": 66.95297353364013,
+        "improvement": 0.6734895445205922,
+        "percent_improvement": 0.9958964492083406,
+        "magnetic_effect": 20.74,
+        "variation_params": {
+          "v_magnetic_max": 17.0,
+          "B_critical": 22.0,
+          "amplification": 0.28,
+          "suppression": 0.42,
+          "magnetic_penetration": 0.78,
+          "coupling_intensity": 1.4,
+          "fractal_scale_factor": 0.32,
+          "ngc2403_boost": 1.22
+        }
+      },
+      {
+        "galaxy_name": "MW",
+        "is_ngc2403_special": false,
+        "classification_confidence": 0.0,
+        "variation": "v4_magnetic_focus",
+        "strategy": "Conservative-v4_magnetic_focus",
+        "rms_base": 102.8581548621057,
+        "rms_final": 102.73571143672652,
+        "improvement": 0.1224434253791884,
+        "percent_improvement": 0.11904104788126836,
+        "magnetic_effect": 0.0,
+        "variation_params": {
+          "v_magnetic_max": 17.0,
+          "B_critical": 22.0,
+          "amplification": 0.28,
+          "suppression": 0.42,
+          "magnetic_penetration": 0.78,
+          "coupling_intensity": 1.4,
+          "fractal_scale_factor": 0.32,
+          "ngc2403_boost": 1.22
+        }
+      },
+      {
+        "galaxy_name": "NGC6503",
+        "is_ngc2403_special": false,
+        "classification_confidence": 0.0,
+        "variation": "v4_magnetic_focus",
+        "strategy": "Conservative-v4_magnetic_focus",
+        "rms_base": 37.97121568077503,
+        "rms_final": 38.03212714437838,
+        "improvement": -0.06091146360334676,
+        "percent_improvement": -0.16041483663686454,
+        "magnetic_effect": 0.0,
+        "variation_params": {
+          "v_magnetic_max": 17.0,
+          "B_critical": 22.0,
+          "amplification": 0.28,
+          "suppression": 0.42,
+          "magnetic_penetration": 0.78,
+          "coupling_intensity": 1.4,
+          "fractal_scale_factor": 0.32,
+          "ngc2403_boost": 1.22
+        }
+      }
+    ],
+    "v5_fractal_enhanced": [
+      {
+        "galaxy_name": "NGC2403",
+        "is_ngc2403_special": true,
+        "classification_confidence": 1.0,
+        "variation": "v5_fractal_enhanced",
+        "strategy": "NGC2403-v5_fractal_enhanced (coupling: 2.67)",
+        "rms_base": 67.62646307816073,
+        "rms_final": 66.9616181146529,
+        "improvement": 0.6648449635078322,
+        "percent_improvement": 0.9831136115153967,
+        "magnetic_effect": 20.925,
+        "variation_params": {
+          "v_magnetic_max": 15.5,
+          "B_critical": 19.5,
+          "amplification": 0.31,
+          "suppression": 0.39,
+          "magnetic_penetration": 0.71,
+          "coupling_intensity": 1.9,
+          "fractal_scale_factor": 0.45,
+          "ngc2403_boost": 1.35
+        }
+      },
+      {
+        "galaxy_name": "MW",
+        "is_ngc2403_special": false,
+        "classification_confidence": 0.0,
+        "variation": "v5_fractal_enhanced",
+        "strategy": "Conservative-v5_fractal_enhanced",
+        "rms_base": 102.8581548621057,
+        "rms_final": 102.73571143672652,
+        "improvement": 0.1224434253791884,
+        "percent_improvement": 0.11904104788126836,
+        "magnetic_effect": 0.0,
+        "variation_params": {
+          "v_magnetic_max": 15.5,
+          "B_critical": 19.5,
+          "amplification": 0.31,
+          "suppression": 0.39,
+          "magnetic_penetration": 0.71,
+          "coupling_intensity": 1.9,
+          "fractal_scale_factor": 0.45,
+          "ngc2403_boost": 1.35
+        }
+      },
+      {
+        "galaxy_name": "NGC6503",
+        "is_ngc2403_special": false,
+        "classification_confidence": 0.0,
+        "variation": "v5_fractal_enhanced",
+        "strategy": "Conservative-v5_fractal_enhanced",
+        "rms_base": 37.97121568077503,
+        "rms_final": 38.03212714437838,
+        "improvement": -0.06091146360334676,
+        "percent_improvement": -0.16041483663686454,
+        "magnetic_effect": 0.0,
+        "variation_params": {
+          "v_magnetic_max": 15.5,
+          "B_critical": 19.5,
+          "amplification": 0.31,
+          "suppression": 0.39,
+          "magnetic_penetration": 0.71,
+          "coupling_intensity": 1.9,
+          "fractal_scale_factor": 0.45,
+          "ngc2403_boost": 1.35
+        }
+      }
+    ]
+  },
+  "results_summary": [
+    [
+      "v1_enhanced_fractal",
+      1.0155787546418666,
+      19.5
+    ],
+    [
+      "v2_optimized_coupling",
+      1.0138318013510452,
+      20.0
+    ],
+    [
+      "v3_balanced_boost",
+      1.039298237262812,
+      18.56
+    ],
+    [
+      "v4_magnetic_focus",
+      0.9958964492083406,
+      20.74
+    ],
+    [
+      "v5_fractal_enhanced",
+      0.9831136115153967,
+      20.925
+    ]
+  ]
+}

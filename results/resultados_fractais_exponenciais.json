@@ -1,0 +1,169 @@
+{
+  "timestamp": "2025-11-23T00:41:07.197023",
+  "results_by_type": {
+    "CRESCENTE": {
+      "light": {
+        "mean_rms": 36.70081853264622,
+        "success_rate": 0.3125,
+        "success_count": 5,
+        "total_galaxies": 16
+      },
+      "medium": {
+        "mean_rms": 35.32167977729026,
+        "success_rate": 0.17647058823529413,
+        "success_count": 3,
+        "total_galaxies": 17
+      },
+      "heavy": {
+        "mean_rms": 62.550311671038614,
+        "success_rate": 0.17647058823529413,
+        "success_count": 3,
+        "total_galaxies": 17
+      },
+      "overall": {
+        "mean_rms": 44.85760332699169,
+        "success_rate": 0.22,
+        "success_count": 11,
+        "total_galaxies": 50
+      }
+    },
+    "OSCILANTE": {
+      "light": {
+        "mean_rms": 36.324297135461975,
+        "success_rate": 0.3125,
+        "success_count": 5,
+        "total_galaxies": 16
+      },
+      "medium": {
+        "mean_rms": 35.2934786110659,
+        "success_rate": 0.17647058823529413,
+        "success_count": 3,
+        "total_galaxies": 17
+      },
+      "heavy": {
+        "mean_rms": 62.738063639361584,
+        "success_rate": 0.17647058823529413,
+        "success_count": 3,
+        "total_galaxies": 17
+      },
+      "overall": {
+        "mean_rms": 44.78527979529648,
+        "success_rate": 0.22,
+        "success_count": 11,
+        "total_galaxies": 50
+      }
+    },
+    "FIBONACCI_EXP": {
+      "light": {
+        "mean_rms": 36.65019196715894,
+        "success_rate": 0.3125,
+        "success_count": 5,
+        "total_galaxies": 16
+      },
+      "medium": {
+        "mean_rms": 35.321555272814486,
+        "success_rate": 0.17647058823529413,
+        "success_count": 3,
+        "total_galaxies": 17
+      },
+      "heavy": {
+        "mean_rms": 62.550306980728706,
+        "success_rate": 0.17647058823529413,
+        "success_count": 3,
+        "total_galaxies": 17
+      },
+      "overall": {
+        "mean_rms": 44.840684740234046,
+        "success_rate": 0.22,
+        "success_count": 11,
+        "total_galaxies": 50
+      }
+    },
+    "ADAPTATIVO": {
+      "light": {
+        "mean_rms": 36.65019605001303,
+        "success_rate": 0.3125,
+        "success_count": 5,
+        "total_galaxies": 16
+      },
+      "medium": {
+        "mean_rms": 35.32155525808026,
+        "success_rate": 0.17647058823529413,
+        "success_count": 3,
+        "total_galaxies": 17
+      },
+      "heavy": {
+        "mean_rms": 62.55030698047161,
+        "success_rate": 0.17647058823529413,
+        "success_count": 3,
+        "total_galaxies": 17
+      },
+      "overall": {
+        "mean_rms": 44.8406860961883,
+        "success_rate": 0.22,
+        "success_count": 11,
+        "total_galaxies": 50
+      }
+    },
+    "HIBRIDO_EXP": {
+      "light": {
+        "mean_rms": 36.70082066166747,
+        "success_rate": 0.3125,
+        "success_count": 5,
+        "total_galaxies": 16
+      },
+      "medium": {
+        "mean_rms": 35.32167977729192,
+        "success_rate": 0.17647058823529413,
+        "success_count": 3,
+        "total_galaxies": 17
+      },
+      "heavy": {
+        "mean_rms": 62.550311671038614,
+        "success_rate": 0.17647058823529413,
+        "success_count": 3,
+        "total_galaxies": 17
+      },
+      "overall": {
+        "mean_rms": 44.857604036666,
+        "success_rate": 0.22,
+        "success_count": 11,
+        "total_galaxies": 50
+      }
+    },
+    "BASELINE_DECRESC": {
+      "light": {
+        "mean_rms": 34.14169594385581,
+        "success_rate": 0.3125,
+        "success_count": 5,
+        "total_galaxies": 16
+      },
+      "medium": {
+        "mean_rms": 34.82877374571914,
+        "success_rate": 0.29411764705882354,
+        "success_count": 5,
+        "total_galaxies": 17
+      },
+      "heavy": {
+        "mean_rms": 65.79082985443804,
+        "success_rate": 0.058823529411764705,
+        "success_count": 1,
+        "total_galaxies": 17
+      },
+      "overall": {
+        "mean_rms": 44.920433181337664,
+        "success_rate": 0.22,
+        "success_count": 11,
+        "total_galaxies": 50
+      }
+    }
+  },
+  "best_types": {
+    "best_rms": "OSCILANTE",
+    "best_success": "CRESCENTE"
+  },
+  "baseline_comparison": {
+    "baseline_rms": 44.920433181337664,
+    "baseline_success_rate": 0.22
+  }
+}

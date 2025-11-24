@@ -1,0 +1,91 @@
+{
+  "timestamp": "2025-11-23T14:45:23.015519",
+  "analysis_type": "Adaptive_Zona_Doce_Analysis",
+  "galaxies_analyzed": 5,
+  "successful_evaluations": 3,
+  "results_summary": {
+    "average_improvement": 13.656894940008735,
+    "max_improvement": 22.27097932716937,
+    "min_improvement": 8.267044645787015,
+    "final_status": "ZONA_DOCE_MODERADA"
+  },
+  "detailed_results": {
+    "NGC2403": {
+      "similarity_score": 0.9996996996996996,
+      "improvement": -16.428165720349057,
+      "rms": 78.73614149641065,
+      "status": "AJUSTES_NECESSARIOS",
+      "vs_lambda_cdm": -4.981521995214204,
+      "vs_mond": -35.75196809725975,
+      "baseline_used": 67.6263694521551,
+      "galaxy_properties": {
+        "M_total": 45000000000.0,
+        "bulge_fraction": 0.1111111111111111,
+        "v_max": 160.0,
+        "distance": 3.2
+      }
+    },
+    "NGC6503": {
+      "similarity_score": 0.9159754796265459,
+      "improvement": -7.702703209368023,
+      "rms": 71.79745265126981,
+      "status": "AJUSTES_NECESSARIOS",
+      "vs_lambda_cdm": 4.270063131640256,
+      "vs_mond": -23.788711467706563,
+      "baseline_used": 66.6626282459221,
+      "galaxy_properties": {
+        "M_total": 42200000000.0,
+        "bulge_fraction": 0.0995260663507109,
+        "v_max": 145.0,
+        "distance": 5.3
+      }
+    },
+    "NGC3198": {
+      "similarity_score": 0.897296000897805,
+      "improvement": 8.267044645787015,
+      "rms": 60.899983507530074,
+      "status": "AJUSTES_NECESSARIOS",
+      "vs_lambda_cdm": 18.8000219899599,
+      "vs_mond": -4.999971564707024,
+      "baseline_used": 66.38833696393402,
+      "galaxy_properties": {
+        "M_total": 48500000000.0,
+        "bulge_fraction": 0.13402061855670103,
+        "v_max": 165.0,
+        "distance": 13.8
+      }
+    },
+    "NGC2841": {
+      "similarity_score": 0.7839091591591592,
+      "improvement": 22.27097932716937,
+      "rms": 51.06263509741476,
+      "status": "BOM",
+      "vs_lambda_cdm": 31.916486536780315,
+      "vs_mond": 11.960973969974548,
+      "baseline_used": 65.69314093424977,
+      "galaxy_properties": {
+        "M_total": 51200000000.0,
+        "bulge_fraction": 0.16015625,
+        "v_max": 175.0,
+        "distance": 14.1
+      }
+    },
+    "NGC5055": {
+      "similarity_score": 0.9209246650496651,
+      "improvement": 10.432660847069819,
+      "rms": 59.76676887372696,
+      "status": "MODERADO",
+      "vs_lambda_cdm": 20.31097483503072,
+      "vs_mond": -3.046153230563724,
+      "baseline_used": 66.72830681246346,
+      "galaxy_properties": {
+        "M_total": 46800000000.0,
+        "bulge_fraction": 0.12393162393162394,
+        "v_max": 175.0,
+        "distance": 10.1
+      }
+    }
+  },
+  "reference_galaxy": "NGC2403",
+  "adaptation_strategy": "similarity_based_parameter_scaling"
+}

@@ -1,0 +1,87 @@
+{
+  "timestamp": "2025-11-23T01:56:15.401366",
+  "execution_time_seconds": 3.573209,
+  "baseline_params": {
+    "light_decay": 1.8,
+    "medium_decay": 2.2,
+    "heavy_decay": 2.0,
+    "light_conc": 0.25,
+    "medium_conc": 0.3,
+    "heavy_conc": 0.35,
+    "light_mod": 0.2,
+    "medium_mod": 0.15,
+    "heavy_mod": 0.15
+  },
+  "optimized_params": {
+    "light_decay": 1.2,
+    "medium_decay": 1.6,
+    "heavy_decay": 1.4,
+    "light_conc": 0.30000000000000004,
+    "medium_conc": 0.2,
+    "heavy_conc": 0.25,
+    "light_mod": 0.2,
+    "medium_mod": 0.15,
+    "heavy_mod": 0.15
+  },
+  "individual_improvements": {
+    "decay_rates": 5.684341886080802e-14,
+    "concentration": 5.684341886080802e-14,
+    "mod_strength": 0
+  },
+  "combined_improvement": 5.684341886080802e-14,
+  "final_rms": 159.94680904283257,
+  "results_by_category": {
+    "light": {
+      "rms": 91.14909802264415,
+      "count": 5,
+      "galaxies": [
+        "NGC7793",
+        "NGC2976",
+        "MOCK034",
+        "IC2574",
+        "DDO154"
+      ]
+    },
+    "medium": {
+      "rms": 192.87980626720523,
+      "count": 4,
+      "galaxies": [
+        "MW",
+        "MOCK037",
+        "MOCK040",
+        "NGC5194"
+      ]
+    },
+    "heavy": {
+      "rms": 213.0109505936955,
+      "count": 4,
+      "galaxies": [
+        "IC342",
+        "UGC2885",
+        "NGC5194",
+        "NGC3198"
+      ]
+    }
+  },
+  "galaxies_tested": {
+    "light": [
+      "NGC7793",
+      "NGC2976",
+      "MOCK034",
+      "IC2574",
+      "DDO154"
+    ],
+    "medium": [
+      "MW",
+      "MOCK037",
+      "MOCK040",
+      "NGC5194"
+    ],
+    "heavy": [
+      "IC342",
+      "UGC2885",
+      "NGC5194",
+      "NGC3198"
+    ]
+  }
+}

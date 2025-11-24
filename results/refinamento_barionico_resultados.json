@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-11-23T02:13:04.859637",
+  "test_type": "refined_baryonic_theory",
+  "n_galaxies": 5,
+  "results": {
+    "original": [
+      44.14112461655741,
+      67.62646307816073,
+      21.63805363831117,
+      37.40642387870961,
+      23.36042368192517
+    ],
+    "refined": [
+      5.416025603090641e+19,
+      3.757345746510897e+19,
+      5.459296801661131e+19,
+      1.7263812316121678e+19,
+      5.87450456818008e+18
+    ],
+    "galaxy_names": [
+      "NGC3198",
+      "NGC2403",
+      "NGC6946",
+      "NGC300",
+      "DDO154"
+    ]
+  },
+  "improvements_implemented": [
+    "Perfis de S\u00e9rsic para bulges",
+    "Disco duplo-exponencial preciso",
+    "Corre\u00e7\u00e3o de press\u00e3o do g\u00e1s",
+    "Feedback estelar",
+    "Gradientes de metalicidade",
+    "Limitador adaptativo"
+  ]
+}

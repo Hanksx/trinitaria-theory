@@ -1,0 +1,223 @@
+{
+  "cluster_optimization": [
+    {
+      "cluster": "Coma",
+      "optimal_params": {
+        "psi_0": 199919.5288850101,
+        "phi_0": 299984.5332325101,
+        "sigma_0": 399971.1373851359,
+        "alpha_psi": 0.10046116527160748,
+        "beta_phi": 0.10015872093904304,
+        "gamma_sigma": 2.6477063380810697,
+        "r_c_psi": 678.864237973658,
+        "r_c_phi": 632.1139949597267,
+        "r_c_sigma": 519.2113743919448
+      },
+      "performance": {
+        "rms_km_s": 52.08121087755486,
+        "mean_prediction": 1012.6870544974612,
+        "target_dispersion": 1000,
+        "relative_error": 0.01268705449746119,
+        "optimization_success": false
+      },
+      "fit_region": {
+        "r_min_kpc": 100.0,
+        "r_max_kpc": 1584.893192461114,
+        "n_points": 30
+      }
+    },
+    {
+      "cluster": "Virgo",
+      "optimal_params": {
+        "psi_0": 190990.53648366916,
+        "phi_0": 297532.09186675365,
+        "sigma_0": 361948.2480457488,
+        "alpha_psi": 0.9862516641979625,
+        "beta_phi": 0.2360097677135443,
+        "gamma_sigma": 1.9571095579152418,
+        "r_c_psi": 2951.870760940832,
+        "r_c_phi": 249.96847324292727,
+        "r_c_sigma": 999.2683925677845
+      },
+      "performance": {
+        "rms_km_s": 4.267299911658107,
+        "mean_prediction": 749.8222157212168,
+        "target_dispersion": 750,
+        "relative_error": 0.0002370457050442383,
+        "optimization_success": false
+      },
+      "fit_region": {
+        "r_min_kpc": 100.0,
+        "r_max_kpc": 1584.893192461114,
+        "n_points": 30
+      }
+    },
+    {
+      "cluster": "Perseus",
+      "optimal_params": {
+        "psi_0": 199999.6130173184,
+        "phi_0": 299968.41076094453,
+        "sigma_0": 399990.9109500014,
+        "alpha_psi": 0.1,
+        "beta_phi": 0.1,
+        "gamma_sigma": 3.0,
+        "r_c_psi": 2990.652658500812,
+        "r_c_phi": 2000.0,
+        "r_c_sigma": 311.45486447975486
+      },
+      "performance": {
+        "rms_km_s": 173.01539251520748,
+        "mean_prediction": 1179.2980750850459,
+        "target_dispersion": 1300,
+        "relative_error": 0.09284763454996472,
+        "optimization_success": false
+      },
+      "fit_region": {
+        "r_min_kpc": 100.0,
+        "r_max_kpc": 1584.893192461114,
+        "n_points": 30
+      }
+    },
+    {
+      "cluster": "Fornax",
+      "optimal_params": {
+        "psi_0": 125471.32916057702,
+        "phi_0": 260972.31595003637,
+        "sigma_0": 94416.93321623153,
+        "alpha_psi": 0.21371683193727298,
+        "beta_phi": 0.9029244973712872,
+        "gamma_sigma": 0.7602195745522281,
+        "r_c_psi": 2677.3819359695913,
+        "r_c_phi": 1812.1321113309684,
+        "r_c_sigma": 221.35705455935013
+      },
+      "performance": {
+        "rms_km_s": 1.3937476745954875,
+        "mean_prediction": 400.1919838094557,
+        "target_dispersion": 400,
+        "relative_error": 0.0004799595236391951,
+        "optimization_success": false
+      },
+      "fit_region": {
+        "r_min_kpc": 100.0,
+        "r_max_kpc": 1584.893192461114,
+        "n_points": 30
+      }
+    }
+  ],
+  "parameter_analysis": {
+    "psi_0": {
+      "mean": 179095.25188664367,
+      "std": 31175.57421669149,
+      "min": 125471.32916057702,
+      "max": 199999.6130173184,
+      "coefficient_of_variation": 0.17407258924108004
+    },
+    "phi_0": {
+      "mean": 289614.33795256115,
+      "std": 16566.562900194505,
+      "min": 260972.31595003637,
+      "max": 299984.5332325101,
+      "coefficient_of_variation": 0.05720215034004328
+    },
+    "sigma_0": {
+      "mean": 314081.80739927944,
+      "std": 127770.50145507399,
+      "min": 94416.93321623153,
+      "max": 399990.9109500014,
+      "coefficient_of_variation": 0.4068064384660285
+    },
+    "alpha_psi": {
+      "mean": 0.35010741535171075,
+      "std": 0.3701887579253533,
+      "min": 0.1,
+      "max": 0.9862516641979625,
+      "coefficient_of_variation": 1.0573576613722084
+    },
+    "beta_phi": {
+      "mean": 0.3347732465059686,
+      "std": 0.33268322826863156,
+      "min": 0.1,
+      "max": 0.9029244973712872,
+      "coefficient_of_variation": 0.9937569137941857
+    },
+    "gamma_sigma": {
+      "mean": 2.091258867637135,
+      "std": 0.8551470443798576,
+      "min": 0.7602195745522281,
+      "max": 3.0,
+      "coefficient_of_variation": 0.40891496390691623
+    },
+    "r_c_psi": {
+      "mean": 2324.6923983462234,
+      "std": 957.8616823472413,
+      "min": 678.864237973658,
+      "max": 2990.652658500812,
+      "coefficient_of_variation": 0.41203803265699157
+    },
+    "r_c_phi": {
+      "mean": 1173.5536448834057,
+      "std": 747.8239263823525,
+      "min": 249.96847324292727,
+      "max": 2000.0,
+      "coefficient_of_variation": 0.63723028737783
+    },
+    "r_c_sigma": {
+      "mean": 512.8229214997085,
+      "std": 300.9034125065237,
+      "min": 221.35705455935013,
+      "max": 999.2683925677845,
+      "coefficient_of_variation": 0.5867588984255158
+    },
+    "universality_ranking": [
+      [
+        "phi_0",
+        0.05720215034004328
+      ],
+      [
+        "psi_0",
+        0.17407258924108004
+      ],
+      [
+        "sigma_0",
+        0.4068064384660285
+      ],
+      [
+        "gamma_sigma",
+        0.40891496390691623
+      ],
+      [
+        "r_c_psi",
+        0.41203803265699157
+      ],
+      [
+        "r_c_sigma",
+        0.5867588984255158
+      ],
+      [
+        "r_c_phi",
+        0.63723028737783
+      ],
+      [
+        "beta_phi",
+        0.9937569137941857
+      ],
+      [
+        "alpha_psi",
+        1.0573576613722084
+      ]
+    ]
+  },
+  "summary_statistics": {
+    "average_rms": 57.68941274475398,
+    "average_relative_error": 0.026562923569027334,
+    "convergence_rate": 0.0,
+    "clusters_optimized": 4
+  },
+  "metadata": {
+    "optimization_date": "2025-11-23",
+    "theory_version": "Cluster-Optimized Trinit\u00e1ria",
+    "method": "Differential Evolution Global Optimization",
+    "fit_region": "100-1600 kpc"
+  }
+}

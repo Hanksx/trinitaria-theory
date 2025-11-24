@@ -1,0 +1,62 @@
+{
+  "timestamp": "2025-11-23T02:34:58.281880",
+  "calibration_type": "magnetic_field_laboratory",
+  "lab_galaxies": [
+    "DDO154",
+    "NGC2403",
+    "NGC3198"
+  ],
+  "best_magnetic_params": {
+    "v_magnetic_max": 20.0
+  },
+  "best_coupling_params": {
+    "B_crit": 20.0,
+    "amp_factor": 0.4,
+    "sup_factor": 0.5
+  },
+  "total_improvement": -75.19285196003732,
+  "final_results": [
+    {
+      "galaxy": "DDO154",
+      "galaxy_type": "dwarf",
+      "M_total": 1100000000.0,
+      "rms_original": 23.36042368192517,
+      "rms_magnetic": 42.10148496501523,
+      "improvement": -18.741061283090062,
+      "improvement_percent": -80.22569084477145,
+      "B_field_central": 2.8182391884404274,
+      "B_field_edge": 1.4747194218286,
+      "coupling_factor_avg": 1.3073423307450223,
+      "v_magnetic_max": 5.677511278637761,
+      "v_trinitaria_max": 1.7032533835913282
+    },
+    {
+      "galaxy": "NGC2403",
+      "galaxy_type": "spiral",
+      "M_total": 45000000000.0,
+      "rms_original": 67.62646307816073,
+      "rms_magnetic": 49.84013429660912,
+      "improvement": 17.786328781551603,
+      "improvement_percent": 26.30084137476578,
+      "B_field_central": 11.27295675376171,
+      "B_field_edge": 1.8076003047171736,
+      "coupling_factor_avg": 1.0976150056711662,
+      "v_magnetic_max": 20.0,
+      "v_trinitaria_max": 13.0
+    },
+    {
+      "galaxy": "NGC3198",
+      "galaxy_type": "massive",
+      "M_total": 93500000000.0,
+      "rms_original": 44.14112461655741,
+      "rms_magnetic": 118.37924407505626,
+      "improvement": -74.23811945849886,
+      "improvement_percent": -168.18357054421764,
+      "B_field_central": 32.879457198471655,
+      "B_field_edge": 0.7986979815061404,
+      "coupling_factor_avg": 0.796947543387892,
+      "v_magnetic_max": 20.0,
+      "v_trinitaria_max": 15.3
+    }
+  ]
+}

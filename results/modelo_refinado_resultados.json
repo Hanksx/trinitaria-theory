@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-11-23T03:02:03.164614",
+  "model_type": "RefinedTrinitariaModel_Enhanced",
+  "refinements": [
+    "Enhanced fractal-magnetic coupling",
+    "Optimized NGC2403-specific parameters",
+    "Improved fractal base approximation",
+    "Adaptive contribution limits"
+  ],
+  "ngc2403_target": "+26.3%",
+  "results": [
+    {
+      "galaxy_name": "NGC2403",
+      "is_ngc2403_type": 

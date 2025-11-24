@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-11-23T00:46:01.986807",
+  "optimization_target": "massive_galaxies",
+  "baseline_rms": 59.954344693609656,
+  "optimized_params": {
+    "decay_rate": -7.11061898665824,
+    "modulation_strength": 0.4301149290155797,
+    "concentration_factor": 0.43740731485826034,
+    "hybrid_exp_factor": 0.02152147767724176
+  },
+  "results": {
+    "BASELINE": {
+      "mean_rms": 59.954344693609656,
+      "success_rate": 0.17647058823529413,
+      "improvement_vs_baseline": 0.0
+    },
+    "OTIMIZADO": {
+      "mean_rms": 65.1816684539298,
+      "success_rate": 0.11764705882352941,
+      "improvement_vs_baseline": 5.227323760320147
+    },
+    "H\u00cdBRIDO_EXP": {
+      "mean_rms": 65.1816684539298,
+      "success_rate": 0.11764705882352941,
+      "improvement_vs_baseline": 5.227323760320147
+    }
+  },
+  "best_configuration": "BASELINE",
+  "optimization_history": [
+    {
+      "params": 

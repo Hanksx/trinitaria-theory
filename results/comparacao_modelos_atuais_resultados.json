@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-11-23T02:01:27.361491",
+  "execution_time_seconds": 1.191033,
+  "n_galaxies_tested": 20,
+  "galaxy_names": [
+    "DDO154",
+    "NGC2403",
+    "NGC3198",
+    "NGC7793",
+    "IC2574",
+    "MW",
+    "UGC2885",
+    "NGC6946",
+    "NGC300",
+    "NGC2841",
+    "NGC3521",
+    "NGC5055",
+    "NGC6503",
+    "DDO161",
+    "NGC2976",
+    "NGC4214",
+    "NGC4736",
+    "NGC5194",
+    "UGC128",
+    "NGC7331"
+  ],
+  "model_results": {
+    "\u039bCDM": {
+      "rms": 28.364733883903074,
+      "chi2_reduced": 764.125317985427,
+      "n_galaxies": 20
+    },
+    "MOND": {
+      "rms": 28.61725312041269,
+      "chi2_reduced": 768.8233543800382,
+      "n_galaxies": 20
+    },
+    "Emergent": {
+      "rms": 28.61725312041269,
+      "chi2_reduced": 768.8233543800382,
+      "n_galaxies": 20
+    },
+    "Trinit\u00e1ria": {
+      "rms": 131.8797931292991,
+      "chi2_reduced": 80.9469823731922,
+      "n_galaxies": 20
+    }
+  },
+  "trinitaria_optimizations_applied": {
+    "limiters": "1.00 (all categories)",
+    "fibonacci_weights": "Optimized per category",
+    "L_parameter": "7.5 (vs 5.0 original)",
+    "Q_parameter": "4.0 (confirmed optimal)",
+    "N_parameter": "4 (confirmed optimal)",
+    "physics_parameters": "Original values confirmed optimal"
+  }
+}
