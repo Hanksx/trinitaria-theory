@@ -1,0 +1,227 @@
+{
+  "metadata": {
+    "version": "Teoria Trinit\u00e1ria Unificada v1.0",
+    "date_created": "2024-11",
+    "total_rms": 60.52472036298008,
+    "success_rate": 0.7,
+    "status": "FINAL - Pronto para valida\u00e7\u00e3o NED"
+  },
+  "constants": {
+    "G_gal": 2.85e-06,
+    "c_light": 299.8,
+    "h_planck_eff": 1e-10,
+    "alpha_fractal": 0.0548,
+    "beta_quantum": 7.3e-05
+  },
+  "morphology_parameters": {
+    "BCD": {
+      "amplitude_fractal": 15.0,
+      "decay_rate": 0.8,
+      "modulation_strength": 0.3,
+      "length_scale_kpc": 2.5,
+      "baryonic_boost": 1.0,
+      "quantum_phase_scale": 8.0,
+      "mass_threshold": 3000000000.0,
+      "dwarf_amplitude_factor": 0.3,
+      "dwarf_baryonic_boost": 1.4,
+      "dwarf_length_scale": 1.5,
+      "dwarf_decay_correction": 1.5
+    },
+    "Im": {
+      "amplitude_fractal": 18.0,
+      "decay_rate": 1.0,
+      "modulation_strength": 0.25,
+      "length_scale_kpc": 3.0,
+      "baryonic_boost": 1.05,
+      "quantum_phase_scale": 10.0,
+      "mass_threshold": 5000000000.0,
+      "dwarf_amplitude_factor": 0.25,
+      "dwarf_baryonic_boost": 1.3,
+      "dwarf_length_scale": 2.0,
+      "dwarf_decay_correction": 1.3
+    },
+    "Sm": {
+      "amplitude_fractal": 20.0,
+      "decay_rate": 1.2,
+      "modulation_strength": 0.2,
+      "length_scale_kpc": 4.0,
+      "baryonic_boost": 1.1,
+      "quantum_phase_scale": 12.0,
+      "mass_threshold": 15000000000.0,
+      "dwarf_amplitude_factor": 0.4,
+      "dwarf_baryonic_boost": 1.2,
+      "dwarf_length_scale": 3.0,
+      "dwarf_decay_correction": 1.2
+    },
+    "Scd": {
+      "amplitude_fractal": 12.0,
+      "decay_rate": 1.8,
+      "modulation_strength": 0.15,
+      "length_scale_kpc": 6.0,
+      "baryonic_boost": 1.15,
+      "quantum_phase_scale": 15.0,
+      "mass_threshold": null,
+      "dwarf_amplitude_factor": null,
+      "dwarf_baryonic_boost": null,
+      "dwarf_length_scale": null,
+      "dwarf_decay_correction": null
+    },
+    "Sc": {
+      "amplitude_fractal": 10.0,
+      "decay_rate": 2.0,
+      "modulation_strength": 0.12,
+      "length_scale_kpc": 8.0,
+      "baryonic_boost": 1.2,
+      "quantum_phase_scale": 18.0,
+      "mass_threshold": null,
+      "dwarf_amplitude_factor": null,
+      "dwarf_baryonic_boost": null,
+      "dwarf_length_scale": null,
+      "dwarf_decay_correction": null
+    },
+    "Sbc": {
+      "amplitude_fractal": 8.0,
+      "decay_rate": 2.2,
+      "modulation_strength": 0.1,
+      "length_scale_kpc": 10.0,
+      "baryonic_boost": 1.25,
+      "quantum_phase_scale": 20.0,
+      "mass_threshold": null,
+      "dwarf_amplitude_factor": null,
+      "dwarf_baryonic_boost": null,
+      "dwarf_length_scale": null,
+      "dwarf_decay_correction": null
+    },
+    "Sb": {
+      "amplitude_fractal": 6.0,
+      "decay_rate": 2.5,
+      "modulation_strength": 0.08,
+      "length_scale_kpc": 12.0,
+      "baryonic_boost": 1.3,
+      "quantum_phase_scale": 25.0,
+      "mass_threshold": null,
+      "dwarf_amplitude_factor": null,
+      "dwarf_baryonic_boost": null,
+      "dwarf_length_scale": null,
+      "dwarf_decay_correction": null
+    },
+    "Sa": {
+      "amplitude_fractal": 4.0,
+      "decay_rate": 3.0,
+      "modulation_strength": 0.05,
+      "length_scale_kpc": 15.0,
+      "baryonic_boost": 1.4,
+      "quantum_phase_scale": 30.0,
+      "mass_threshold": null,
+      "dwarf_amplitude_factor": null,
+      "dwarf_baryonic_boost": null,
+      "dwarf_length_scale": null,
+      "dwarf_decay_correction": null
+    },
+    "E": {
+      "amplitude_fractal": 2.0,
+      "decay_rate": 3.5,
+      "modulation_strength": 0.02,
+      "length_scale_kpc": 20.0,
+      "baryonic_boost": 1.5,
+      "quantum_phase_scale": 35.0,
+      "mass_threshold": null,
+      "dwarf_amplitude_factor": null,
+      "dwarf_baryonic_boost": null,
+      "dwarf_length_scale": null,
+      "dwarf_decay_correction": null
+    }
+  },
+  "test_results": [
+    {
+      "name": "NGC2403",
+      "type": "Scd",
+      "mass": 45000000000.0,
+      "rms": 77.4406850184414,
+      "v_flat_obs": 160,
+      "v_flat_model": 92.2993372355835,
+      "is_dwarf": false
+    },
+    {
+      "name": "NGC3198",
+      "type": "Sc",
+      "mass": 48000000000.0,
+      "rms": 73.94801555236505,
+      "v_flat_obs": 165,
+      "v_flat_model": 92.93842347711691,
+      "is_dwarf": false
+    },
+    {
+      "name": "NGC6503",
+      "type": "Scd",
+      "mass": 42000000000.0,
+      "rms": 76.48699962409842,
+      "v_flat_obs": 145,
+      "v_flat_model": 93.47033524552373,
+      "is_dwarf": false
+    },
+    {
+      "name": "NGC2841",
+      "type": "Sb",
+      "mass": 180000000000.0,
+      "rms": 103.41933336271495,
+      "v_flat_obs": 280,
+      "v_flat_model": 154.17344119041036,
+      "is_dwarf": false
+    },
+    {
+      "name": "NGC4736",
+      "type": "Sbc",
+      "mass": 85000000000.0,
+      "rms": 83.90064509448867,
+      "v_flat_obs": 195,
+      "v_flat_model": 120.02953876874808,
+      "is_dwarf": false
+    },
+    {
+      "name": "DDO154",
+      "type": "Im",
+      "mass": 1200000000.0,
+      "rms": 12.11014122398389,
+      "v_flat_obs": 45,
+      "v_flat_model": 28.76315007304337,
+      "is_dwarf": true
+    },
+    {
+      "name": "IC2574",
+      "type": "Im",
+      "mass": 2800000000.0,
+      "rms": 26.742674195991814,
+      "v_flat_obs": 75,
+      "v_flat_model": 40.875267792678294,
+      "is_dwarf": true
+    },
+    {
+      "name": "NGC300",
+      "type": "Sm",
+      "mass": 8800000000.0,
+      "rms": 28.809721242712257,
+      "v_flat_obs": 95,
+      "v_flat_model": 55.86471431500966,
+      "is_dwarf": true
+    },
+    {
+      "name": "UGC2885",
+      "type": "Sb",
+      "mass": 800000000000.0,
+      "rms": 83.16198600683259,
+      "v_flat_obs": 350,
+      "v_flat_model": 257.8012252290243,
+      "is_dwarf": false
+    },
+    {
+      "name": "NGC1560",
+      "type": "Sm",
+      "mass": 3200000000.0,
+      "rms": 39.22700230817175,
+      "v_flat_obs": 85,
+      "v_flat_model": 35.97826326332281,
+      "is_dwarf": true
+    }
+  ]
+}

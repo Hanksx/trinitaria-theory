@@ -1,0 +1,2394 @@
+{
+  "timestamp": "2025-11-23T01:44:51.830643",
+  "execution_time_seconds": 2.258735,
+  "baseline_q": [
+    4.0,
+    4.0,
+    4.0
+  ],
+  "optimal_q": {
+    "light": 4.0,
+    "medium": 4.0,
+    "heavy": 4.0
+  },
+  "optimal_l": 4.0,
+  "performance": {
+    "best_rms": 159.94680904286457,
+    "improvement": 0,
+    "best_l_rms": 159.94680904286457
+  },
+  "results_by_category": {
+    "light": {
+      "rms": 91.14909802268787,
+      "count": 5,
+      "galaxies": [
+        "NGC7793",
+        "NGC2976",
+        "MOCK034",
+        "IC2574",
+        "DDO154"
+      ]
+    },
+    "medium": {
+      "rms": 192.87980626723277,
+      "count": 4,
+      "galaxies": [
+        "MW",
+        "MOCK037",
+        "MOCK040",
+        "NGC5194"
+      ]
+    },
+    "heavy": {
+      "rms": 213.01095059371733,
+      "count": 4,
+      "galaxies": [
+        "IC342",
+        "UGC2885",
+        "NGC5194",
+        "NGC3198"
+      ]
+    }
+  },
+  "grid_search_results": [
+    {
+      "q_values": [
+        3.0,
+        3.0,
+        2.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        3.0,
+        2.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        3.0,
+        3.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        3.0,
+        4.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        3.0,
+        4.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        3.5,
+        2.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        3.5,
+        2.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        3.5,
+        3.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        3.5,
+        3.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        3.5,
+        4.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        3.5,
+        4.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        4.0,
+        2.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        4.0,
+        2.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        4.0,
+        3.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        4.0,
+        3.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        4.0,
+        4.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        4.0,
+        4.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        4.5,
+        2.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        4.5,
+        2.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        4.5,
+        3.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        4.5,
+        3.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        4.5,
+        4.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        4.5,
+        4.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        5.0,
+        2.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        5.0,
+        2.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        5.0,
+        3.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        5.0,
+        3.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        5.0,
+        4.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.0,
+        5.0,
+        4.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.5,
+        3.0,
+        2.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.5,
+        3.0,
+        2.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.5,
+        3.0,
+        3.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.5,
+        3.0,
+        3.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.5,
+        3.0,
+        4.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.5,
+        3.0,
+        4.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.5,
+        3.5,
+        2.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.5,
+        3.5,
+        2.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.5,
+        3.5,
+        3.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.5,
+        3.5,
+        3.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.5,
+        3.5,
+        4.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.5,
+        3.5,
+        4.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.5,
+        4.0,
+        2.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.5,
+        4.0,
+        2.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.5,
+        4.0,
+        3.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.5,
+        4.0,
+        3.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.5,
+        4.0,
+        4.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.5,
+        4.0,
+        4.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.5,
+        4.5,
+        2.0
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    {
+      "q_values": [
+        3.5,
+        4.5,
+        2.5
+      ],
+      "rms": 159.94680904286457,
+      "improvement": 0.0,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    }
+  ],
+  "l_variation_results": {
+    "4.0": {
+      "rms": 159.94680904286457,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    "5.0": {
+      "rms": 159.94680904286457,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    "6.0": {
+      "rms": 159.94680904286457,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    "7.0": {
+      "rms": 159.94680904286457,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    "7.5": {
+      "rms": 159.94680904286457,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    },
+    "8.0": {
+      "rms": 159.94680904286457,
+      "category_results": {
+        "light": {
+          "rms": 91.14909802268787,
+          "count": 5,
+          "galaxies": [
+            "NGC7793",
+            "NGC2976",
+            "MOCK034",
+            "IC2574",
+            "DDO154"
+          ]
+        },
+        "medium": {
+          "rms": 192.87980626723277,
+          "count": 4,
+          "galaxies": [
+            "MW",
+            "MOCK037",
+            "MOCK040",
+            "NGC5194"
+          ]
+        },
+        "heavy": {
+          "rms": 213.01095059371733,
+          "count": 4,
+          "galaxies": [
+            "IC342",
+            "UGC2885",
+            "NGC5194",
+            "NGC3198"
+          ]
+        }
+      }
+    }
+  },
+  "galaxies_tested": {
+    "light": [
+      "NGC7793",
+      "NGC2976",
+      "MOCK034",
+      "IC2574",
+      "DDO154"
+    ],
+    "medium": [
+      "MW",
+      "MOCK037",
+      "MOCK040",
+      "NGC5194"
+    ],
+    "heavy": [
+      "IC342",
+      "UGC2885",
+      "NGC5194",
+      "NGC3198"
+    ]
+  }
+}

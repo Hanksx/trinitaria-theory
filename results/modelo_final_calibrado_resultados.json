@@ -1,0 +1,96 @@
+{
+  "timestamp": "2025-11-23T02:57:45.266098",
+  "model_type": "TrinitariaFinalOptimized_Calibrated",
+  "calibrated_parameters": {
+    "v_magnetic_max": 20.0,
+    "B_critical": 20.0,
+    "amplification": 0.4,
+    "suppression": 0.5,
+    "B_decay_scale": 8.0,
+    "typical_gas_density": 1e-24,
+    "magnetic_contribution_factor": 0.1
+  },
+  "ngc2403_type_detected": 1,
+  "total_improvement": -0.8274464960073118,
+  "mean_improvement": -0.11820664228675883,
+  "ngc2403_success": false,
+  "results": [
+    {
+      "galaxy_name": "NGC2403",
+      "is_ngc2403_type": true,
+      "classification_confidence": 1.0,
+      "magnetic_strategy": "NGC2403-calibrated",
+      "rms_base": 67.62646307816073,
+      "rms_final": 67.42698033266156,
+      "improvement": 0.1994827454991679,
+      "percent_improvement": 0.29497734528658026,
+      "magnetic_effect": 20.0
+    },
+    {
+      "galaxy_name": "MW",
+      "is_ngc2403_type": false,
+      "classification_confidence": 0.0,
+      "magnetic_strategy": "Conservative",
+      "rms_base": 102.8581548621057,
+      "rms_final": 105.31012420817802,
+      "improvement": -2.4519693460723175,
+      "percent_improvement": -2.3838356320502645,
+      "magnetic_effect": 0.0
+    },
+    {
+      "galaxy_name": "NGC6503",
+      "is_ngc2403_type": false,
+      "classification_confidence": 0.25,
+      "magnetic_strategy": "Conservative",
+      "rms_base": 37.97121568077503,
+      "rms_final": 36.80381039970472,
+      "improvement": 1.1674052810703088,
+      "percent_improvement": 3.07444799999219,
+      "magnetic_effect": 0.0
+    },
+    {
+      "galaxy_name": "NGC3198",
+      "is_ngc2403_type": false,
+      "classification_confidence": 0.25,
+      "magnetic_strategy": "Conservative",
+      "rms_base": 44.14112461655741,
+      "rms_final": 43.58975644593478,
+      "improvement": 0.5513681706226308,
+      "percent_improvement": 1.249103133216981,
+      "magnetic_effect": 0.0
+    },
+    {
+      "galaxy_name": "DDO154",
+      "is_ngc2403_type": false,
+      "classification_confidence": 0.25,
+      "magnetic_strategy": "Conservative",
+      "rms_base": 23.36042368192517,
+      "rms_final": 22.421659757104827,
+      "improvement": 0.9387639248203428,
+      "percent_improvement": 4.018608299243731,
+      "magnetic_effect": 0.0
+    },
+    {
+      "galaxy_name": "NGC6946",
+      "is_ngc2403_type": false,
+      "classification_confidence": 0.25,
+      "magnetic_strategy": "Conservative",
+      "rms_base": 21.63805363831117,
+      "rms_final": 22.060279157698936,
+      "improvement": -0.42222551938776576,
+      "percent_improvement": -1.9513100690359508,
+      "magnetic_effect": 0.0
+    },
+    {
+      "galaxy_name": "NGC7793",
+      "is_ngc2403_type": false,
+      "classification_confidence": 0.25,
+      "magnetic_strategy": "Conservative",
+      "rms_base": 38.925597923042616,
+      "rms_final": 39.735869675602295,
+      "improvement": -0.8102717525596788,
+      "percent_improvement": -2.081591024398949,
+      "magnetic_effect": 0.0
+    }
+  ]
+}

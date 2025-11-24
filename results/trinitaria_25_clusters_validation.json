@@ -1,0 +1,558 @@
+{
+  "validation_results": [
+    {
+      "cluster": "Virgo",
+      "cluster_data": {
+        "distance_Mpc": 16.5,
+        "velocity_dispersion": 750,
+        "mass_1e14": 1.2,
+        "type": "irregular",
+        "richness": "rich",
+        "temperature_keV": 2.3,
+        "redshift": 0.004,
+        "members": 1300,
+        "core_radius_kpc": 200
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 750.0,
+      "rms_universal": 64.90973885042249,
+      "relative_error": 0.05879862562137411,
+      "success": true
+    },
+    {
+      "cluster": "Fornax",
+      "cluster_data": {
+        "distance_Mpc": 20,
+        "velocity_dispersion": 400,
+        "mass_1e14": 0.7,
+        "type": "regular",
+        "richness": "poor",
+        "temperature_keV": 1.2,
+        "redshift": 0.005,
+        "members": 340,
+        "core_radius_kpc": 150
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 400.0,
+      "rms_universal": 396.9666895960558,
+      "relative_error": 0.9852474230400765,
+      "success": false
+    },
+    {
+      "cluster": "Centaurus",
+      "cluster_data": {
+        "distance_Mpc": 38,
+        "velocity_dispersion": 550,
+        "mass_1e14": 1.8,
+        "type": "regular",
+        "richness": "medium",
+        "temperature_keV": 2.8,
+        "redshift": 0.012,
+        "members": 400,
+        "core_radius_kpc": 180
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 550.0,
+      "rms_universal": 248.7023560082257,
+      "relative_error": 0.44381630766551017,
+      "success": true
+    },
+    {
+      "cluster": "Hydra",
+      "cluster_data": {
+        "distance_Mpc": 48,
+        "velocity_dispersion": 610,
+        "mass_1e14": 2.1,
+        "type": "regular",
+        "richness": "medium",
+        "temperature_keV": 3.1,
+        "redshift": 0.016,
+        "members": 350,
+        "core_radius_kpc": 220
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 610.0,
+      "rms_universal": 190.1604206403598,
+      "relative_error": 0.30180158887873865,
+      "success": true
+    },
+    {
+      "cluster": "Coma",
+      "cluster_data": {
+        "distance_Mpc": 99,
+        "velocity_dispersion": 1000,
+        "mass_1e14": 15.0,
+        "type": "regular",
+        "richness": "very_rich",
+        "temperature_keV": 8.2,
+        "redshift": 0.023,
+        "members": 1000,
+        "core_radius_kpc": 500
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 1000.0,
+      "rms_universal": 211.33809308691798,
+      "relative_error": 0.20590103078396943,
+      "success": true
+    },
+    {
+      "cluster": "Perseus",
+      "cluster_data": {
+        "distance_Mpc": 73,
+        "velocity_dispersion": 1300,
+        "mass_1e14": 6.5,
+        "type": "cool_core",
+        "richness": "rich",
+        "temperature_keV": 6.5,
+        "redshift": 0.018,
+        "members": 500,
+        "core_radius_kpc": 300
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 1300.0,
+      "rms_universal": 508.13817811693355,
+      "relative_error": 0.38915463906459186,
+      "success": false
+    },
+    {
+      "cluster": "A1656",
+      "cluster_data": {
+        "distance_Mpc": 95,
+        "velocity_dispersion": 950,
+        "mass_1e14": 12.0,
+        "type": "regular",
+        "richness": "very_rich",
+        "temperature_keV": 7.8,
+        "redshift": 0.022,
+        "members": 800,
+        "core_radius_kpc": 450
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 950.0,
+      "rms_universal": 163.01437516740003,
+      "relative_error": 0.16410634819365202,
+      "success": true
+    },
+    {
+      "cluster": "A426",
+      "cluster_data": {
+        "distance_Mpc": 75,
+        "velocity_dispersion": 1250,
+        "mass_1e14": 5.8,
+        "type": "cool_core",
+        "richness": "rich",
+        "temperature_keV": 6.2,
+        "redshift": 0.019,
+        "members": 450,
+        "core_radius_kpc": 280
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 1250.0,
+      "rms_universal": 458.38226948868726,
+      "relative_error": 0.36472082462717553,
+      "success": false
+    },
+    {
+      "cluster": "A2029",
+      "cluster_data": {
+        "distance_Mpc": 120,
+        "velocity_dispersion": 1200,
+        "mass_1e14": 8.5,
+        "type": "cool_core",
+        "richness": "rich",
+        "temperature_keV": 7.5,
+        "redshift": 0.077,
+        "members": 350,
+        "core_radius_kpc": 400
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 1200.0,
+      "rms_universal": 408.68594532134654,
+      "relative_error": 0.3382508589866412,
+      "success": false
+    },
+    {
+      "cluster": "A85",
+      "cluster_data": {
+        "distance_Mpc": 140,
+        "velocity_dispersion": 900,
+        "mass_1e14": 4.2,
+        "type": "regular",
+        "richness": "medium",
+        "temperature_keV": 5.1,
+        "redshift": 0.055,
+        "members": 280,
+        "core_radius_kpc": 320
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 900.0,
+      "rms_universal": 116.11883323914729,
+      "relative_error": 0.11766781198218824,
+      "success": true
+    },
+    {
+      "cluster": "A1367",
+      "cluster_data": {
+        "distance_Mpc": 92,
+        "velocity_dispersion": 800,
+        "mass_1e14": 3.8,
+        "type": "irregular",
+        "richness": "medium",
+        "temperature_keV": 4.2,
+        "redshift": 0.022,
+        "members": 300,
+        "core_radius_kpc": 250
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 800.0,
+      "rms_universal": 47.9935128535826,
+      "relative_error": 0.0073762884799617725,
+      "success": true
+    },
+    {
+      "cluster": "A2256",
+      "cluster_data": {
+        "distance_Mpc": 180,
+        "velocity_dispersion": 1400,
+        "mass_1e14": 10.2,
+        "type": "merger",
+        "richness": "rich",
+        "temperature_keV": 8.8,
+        "redshift": 0.058,
+        "members": 450,
+        "core_radius_kpc": 600
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 1400.0,
+      "rms_universal": 607.7701985263759,
+      "relative_error": 0.43278645055997816,
+      "success": false
+    },
+    {
+      "cluster": "A2163",
+      "cluster_data": {
+        "distance_Mpc": 250,
+        "velocity_dispersion": 1800,
+        "mass_1e14": 18.0,
+        "type": "merger",
+        "richness": "very_rich",
+        "temperature_keV": 12.5,
+        "redshift": 0.203,
+        "members": 200,
+        "core_radius_kpc": 800
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 1800.0,
+      "rms_universal": 1007.0280228692575,
+      "relative_error": 0.5588339059910942,
+      "success": false
+    },
+    {
+      "cluster": "A665",
+      "cluster_data": {
+        "distance_Mpc": 280,
+        "velocity_dispersion": 1100,
+        "mass_1e14": 6.8,
+        "type": "regular",
+        "richness": "rich",
+        "temperature_keV": 6.9,
+        "redshift": 0.182,
+        "members": 180,
+        "core_radius_kpc": 350
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 1100.0,
+      "rms_universal": 309.58681455515625,
+      "relative_error": 0.2780918461672449,
+      "success": false
+    },
+    {
+      "cluster": "A2390",
+      "cluster_data": {
+        "distance_Mpc": 290,
+        "velocity_dispersion": 1300,
+        "mass_1e14": 9.1,
+        "type": "cool_core",
+        "richness": "rich",
+        "temperature_keV": 8.1,
+        "redshift": 0.228,
+        "members": 160,
+        "core_radius_kpc": 420
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 1300.0,
+      "rms_universal": 508.13817811693355,
+      "relative_error": 0.38915463906459186,
+      "success": false
+    },
+    {
+      "cluster": "A1689",
+      "cluster_data": {
+        "distance_Mpc": 320,
+        "velocity_dispersion": 2200,
+        "mass_1e14": 22.0,
+        "type": "strong_lensing",
+        "richness": "very_rich",
+        "temperature_keV": 15.2,
+        "redshift": 0.183,
+        "members": 300,
+        "core_radius_kpc": 150
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 2200.0,
+      "rms_universal": 1406.7075970048436,
+      "relative_error": 0.6390459230836225,
+      "success": false
+    },
+    {
+      "cluster": "Bullet",
+      "cluster_data": {
+        "distance_Mpc": 1200,
+        "velocity_dispersion": 1500,
+        "mass_1e14": 15.0,
+        "type": "merger",
+        "richness": "rich",
+        "temperature_keV": 14.8,
+        "redshift": 0.296,
+        "members": 100,
+        "core_radius_kpc": 200
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 1500.0,
+      "rms_universal": 707.5060567751942,
+      "relative_error": 0.47060068718931297,
+      "success": false
+    },
+    {
+      "cluster": "A2218",
+      "cluster_data": {
+        "distance_Mpc": 330,
+        "velocity_dispersion": 1300,
+        "mass_1e14": 8.9,
+        "type": "strong_lensing",
+        "richness": "rich",
+        "temperature_keV": 7.2,
+        "redshift": 0.176,
+        "members": 220,
+        "core_radius_kpc": 380
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 1300.0,
+      "rms_universal": 508.13817811693355,
+      "relative_error": 0.38915463906459186,
+      "success": false
+    },
+    {
+      "cluster": "A3526",
+      "cluster_data": {
+        "distance_Mpc": 45,
+        "velocity_dispersion": 480,
+        "mass_1e14": 1.4,
+        "type": "regular",
+        "richness": "poor",
+        "temperature_keV": 2.1,
+        "redshift": 0.011,
+        "members": 250,
+        "core_radius_kpc": 170
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 480.0,
+      "rms_universal": 317.68965607064786,
+      "relative_error": 0.654372852533397,
+      "success": false
+    },
+    {
+      "cluster": "A3558",
+      "cluster_data": {
+        "distance_Mpc": 144,
+        "velocity_dispersion": 750,
+        "mass_1e14": 3.2,
+        "type": "regular",
+        "richness": "medium",
+        "temperature_keV": 4.8,
+        "redshift": 0.048,
+        "members": 180,
+        "core_radius_kpc": 290
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 750.0,
+      "rms_universal": 64.90973885042249,
+      "relative_error": 0.05879862562137411,
+      "success": true
+    },
+    {
+      "cluster": "A2199",
+      "cluster_data": {
+        "distance_Mpc": 135,
+        "velocity_dispersion": 700,
+        "mass_1e14": 2.8,
+        "type": "cool_core",
+        "richness": "medium",
+        "temperature_keV": 4.1,
+        "redshift": 0.03,
+        "members": 200,
+        "core_radius_kpc": 240
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 700.0,
+      "rms_universal": 105.46644546600163,
+      "relative_error": 0.1344270988800437,
+      "success": true
+    },
+    {
+      "cluster": "A2142",
+      "cluster_data": {
+        "distance_Mpc": 95,
+        "velocity_dispersion": 1100,
+        "mass_1e14": 7.2,
+        "type": "regular",
+        "richness": "rich",
+        "temperature_keV": 8.9,
+        "redshift": 0.091,
+        "members": 320,
+        "core_radius_kpc": 480
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 1100.0,
+      "rms_universal": 309.58681455515625,
+      "relative_error": 0.2780918461672449,
+      "success": false
+    },
+    {
+      "cluster": "A3376",
+      "cluster_data": {
+        "distance_Mpc": 160,
+        "velocity_dispersion": 850,
+        "mass_1e14": 4.1,
+        "type": "regular",
+        "richness": "medium",
+        "temperature_keV": 5.2,
+        "redshift": 0.046,
+        "members": 190,
+        "core_radius_kpc": 310
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 850.0,
+      "rms_universal": 73.44031831646667,
+      "relative_error": 0.06576591856937579,
+      "success": true
+    },
+    {
+      "cluster": "A4038",
+      "cluster_data": {
+        "distance_Mpc": 190,
+        "velocity_dispersion": 950,
+        "mass_1e14": 5.5,
+        "type": "irregular",
+        "richness": "medium",
+        "temperature_keV": 6.1,
+        "redshift": 0.028,
+        "members": 220,
+        "core_radius_kpc": 340
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 950.0,
+      "rms_universal": 163.01437516740003,
+      "relative_error": 0.16410634819365202,
+      "success": true
+    },
+    {
+      "cluster": "A2744",
+      "cluster_data": {
+        "distance_Mpc": 1100,
+        "velocity_dispersion": 1350,
+        "mass_1e14": 12.5,
+        "type": "merger",
+        "richness": "rich",
+        "temperature_keV": 9.8,
+        "redshift": 0.308,
+        "members": 150,
+        "core_radius_kpc": 250
+      },
+      "universal_prediction": 794.0989692160306,
+      "target_dispersion": 1350.0,
+      "rms_universal": 557.9377305205246,
+      "relative_error": 0.4117785413214588,
+      "success": false
+    }
+  ],
+  "summary_statistics": {
+    "mean_rms": 378.45322149121574,
+    "std_rms": 311.89798268341644,
+    "median_rms": 309.58681455515625,
+    "mean_relative_error": 0.3320740427892346,
+    "success_rate": 0.44
+  },
+  "categories": {
+    "proximos": 11,
+    "medios": 10,
+    "distantes": 4,
+    "success": 11,
+    "excellent": 4,
+    "good": 5,
+    "poor": 14
+  },
+  "morphology_analysis": {
+    "irregular": {
+      "mean_rms": 91.97254229046837,
+      "count": 3,
+      "clusters": [
+        "Virgo",
+        "A1367",
+        "A4038"
+      ]
+    },
+    "regular": {
+      "mean_rms": 218.31946455326877,
+      "count": 11,
+      "clusters": [
+        "Fornax",
+        "Centaurus",
+        "Hydra",
+        "Coma",
+        "A1656",
+        "A85",
+        "A665",
+        "A3526",
+        "A3558",
+        "A2142",
+        "A3376"
+      ]
+    },
+    "cool_core": {
+      "mean_rms": 397.76220330198055,
+      "count": 5,
+      "clusters": [
+        "Perseus",
+        "A426",
+        "A2029",
+        "A2390",
+        "A2199"
+      ]
+    },
+    "merger": {
+      "mean_rms": 720.0605021728381,
+      "count": 4,
+      "clusters": [
+        "A2256",
+        "A2163",
+        "Bullet",
+        "A2744"
+      ]
+    },
+    "strong_lensing": {
+      "mean_rms": 957.4228875608885,
+      "count": 2,
+      "clusters": [
+        "A1689",
+        "A2218"
+      ]
+    }
+  },
+  "metadata": {
+    "validation_date": "2025-11-23",
+    "theory_version": "Universal Parameters v2.0",
+    "clusters_tested": 25,
+    "parameter_source": "4-cluster optimization"
+  }
+}

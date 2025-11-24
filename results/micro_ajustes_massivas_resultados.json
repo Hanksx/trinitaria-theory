@@ -1,0 +1,80 @@
+{
+  "timestamp": "2025-11-23T00:48:45.059357",
+  "focus": "massive_galaxies",
+  "baseline_rms": 60.00912479583277,
+  "best_configuration": "LIMITADOR_+0.5",
+  "best_rms": 59.174290622452794,
+  "improvement": 0.8348341733799742,
+  "results": {
+    "BASELINE": {
+      "mean_rms": 60.00912479583277,
+      "success_rate": 0.17647058823529413,
+      "improvement_vs_baseline": 0.0
+    },
+    "DECAY_BOOST_+0.3": {
+      "mean_rms": 60.02054825307915,
+      "success_rate": 0.17647058823529413,
+      "improvement_vs_baseline": 0.011423457246380053
+    },
+    "DECAY_BOOST_-0.2": {
+      "mean_rms": 60.01251089693074,
+      "success_rate": 0.17647058823529413,
+      "improvement_vs_baseline": 0.0033861010979734374
+    },
+    "MOD_REDUCTION_+0.03": {
+      "mean_rms": 60.00935306289824,
+      "success_rate": 0.17647058823529413,
+      "improvement_vs_baseline": 0.00022826706547363074
+    },
+    "MOD_REDUCTION_+0.05": {
+      "mean_rms": 60.00951008247985,
+      "success_rate": 0.17647058823529413,
+      "improvement_vs_baseline": 0.00038528664708081806
+    },
+    "CONC_+0.05": {
+      "mean_rms": 60.00832630061859,
+      "success_rate": 0.17647058823529413,
+      "improvement_vs_baseline": -0.0007984952141768531
+    },
+    "CONC_-0.05": {
+      "mean_rms": 60.01264673948542,
+      "success_rate": 0.17647058823529413,
+      "improvement_vs_baseline": 0.00352194365265035
+    },
+    "LIMITADOR_+0.3": {
+      "mean_rms": 59.504050087584744,
+      "success_rate": 0.17647058823529413,
+      "improvement_vs_baseline": -0.5050747082480243
+    },
+    "LIMITADOR_+0.5": {
+      "mean_rms": 59.174290622452794,
+      "success_rate": 0.17647058823529413,
+      "improvement_vs_baseline": -0.8348341733799742
+    },
+    "FORMA_SUAVE_+0.2": {
+      "mean_rms": 60.008430180755575,
+      "success_rate": 0.17647058823529413,
+      "improvement_vs_baseline": -0.0006946150771938164
+    },
+    "FORMA_SUAVE_+0.4": {
+      "mean_rms": 60.00778166691648,
+      "success_rate": 0.17647058823529413,
+      "improvement_vs_baseline": -0.0013431289162895155
+    },
+    "HYBRID_EXP_0.1": {
+      "mean_rms": 60.00885189955716,
+      "success_rate": 0.17647058823529413,
+      "improvement_vs_baseline": -0.0002728962756108899
+    },
+    "HYBRID_EXP_0.2": {
+      "mean_rms": 60.00859188201739,
+      "success_rate": 0.17647058823529413,
+      "improvement_vs_baseline": -0.0005329138153769009
+    },
+    "COMBO_CONSERVADOR": {
+      "mean_rms": 59.7546177184925,
+      "success_rate": 0.17647058823529413,
+      "improvement_vs_baseline": -0.25450707734027134
+    }
+  }
+}

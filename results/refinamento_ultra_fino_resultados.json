@@ -1,0 +1,121 @@
+{
+  "timestamp": "2025-11-23T01:02:29.819085",
+  "execution_time_seconds": 0.837685,
+  "ic342_optimization": {
+    "optimal_limiter": 0.9400000000000001,
+    "optimal_rms": 85.97137582706095,
+    "improvement": 10.172177294230693
+  },
+  "ultra_fine_results": [
+    {
+      "limiter": 0.9400000000000001,
+      "rms": 85.97137582706095,
+      "improvement": 10.172177294230693,
+      "improvement_pct": 10.580196970043117
+    },
+    {
+      "limiter": 0.93,
+      "rms": 86.42691831695204,
+      "improvement": 9.716634804339606,
+      "improvement_pct": 10.106382059836513
+    },
+    {
+      "limiter": 0.92,
+      "rms": 86.88008022857768,
+      "improvement": 9.263472892713963,
+      "improvement_pct": 9.635043216082789
+    },
+    {
+      "limiter": 0.91,
+      "rms": 87.3308109909668,
+      "improvement": 8.81274213032485,
+      "improvement_pct": 9.166233038222515
+    },
+    {
+      "limiter": 0.9,
+      "rms": 87.77905992031677,
+      "improvement": 8.364493200974877,
+      "improvement_pct": 8.700004243053613
+    },
+    {
+      "limiter": 0.89,
+      "rms": 88.22477621192122,
+      "improvement": 7.918776909370422,
+      "improvement_pct": 8.236409673127376
+    },
+    {
+      "limiter": 0.88,
+      "rms": 88.66790893280913,
+      "improvement": 7.475644188482519,
+      "improvement_pct": 7.775502304404627
+    },
+    {
+      "limiter": 0.87,
+      "rms": 89.1084070150957,
+      "improvement": 7.035146106195953,
+      "improvement_pct": 7.317335253171511
+    },
+    {
+      "limiter": 0.86,
+      "rms": 89.54621925004459,
+      "improvement": 6.597333871247059,
+      "improvement_pct": 6.8619617822154675
+    }
+  ],
+  "sensitive_galaxies_validation": {
+    "avg_baseline": 78.48810929464851,
+    "avg_optimal": 71.51256907057879,
+    "avg_improvement": 6.9755402240697055,
+    "individual_results": [
+      {
+        "name": "IC342",
+        "rms_baseline": 96.14355312129165,
+        "rms_optimal": 85.97137582706095,
+        "rms_90": 87.77905992031677,
+        "improvement": 10.172177294230693
+      },
+      {
+        "name": "UGC2885",
+        "rms_baseline": 49.314684093434025,
+        "rms_optimal": 41.66249164017978,
+        "rms_90": 42.95769705726426,
+        "improvement": 7.652192453254244
+      },
+      {
+        "name": "NGC5194",
+        "rms_baseline": 82.32462974502758,
+        "rms_optimal": 74.79785631189353,
+        "rms_90": 76.12892342308618,
+        "improvement": 7.5267734331340534
+      },
+      {
+        "name": "NGC2841",
+        "rms_baseline": 101.4889009143044,
+        "rms_optimal": 94.00427290137078,
+        "rms_90": 95.35051384860867,
+        "improvement": 7.484628012933612
+      },
+      {
+        "name": "NGC3521",
+        "rms_baseline": 117.7857695254448,
+        "rms_optimal": 111.00663272645808,
+        "rms_90": 112.22152106330505,
+        "improvement": 6.779136798986727
+      },
+      {
+        "name": "MOCK045",
+        "rms_baseline": 82.69286667672611,
+        "rms_optimal": 76.30815011145299,
+        "rms_90": 77.44286691149367,
+        "improvement": 6.3847165652731235
+      },
+      {
+        "name": "NGC5055",
+        "rms_baseline": 19.666360986310945,
+        "rms_optimal": 16.837203975635454,
+        "rms_90": 16.84712475204128,
+        "improvement": 2.829157010675491
+      }
+    ]
+  }
+}

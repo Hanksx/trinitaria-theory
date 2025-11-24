@@ -1,0 +1,91 @@
+{
+  "timestamp": "2025-11-23T02:26:11.896183",
+  "test_type": "magnetic_field_theory",
+  "n_galaxies": 5,
+  "magnetic_model": {
+    "dwarf_B_field": "1-5 \u03bcG (weak fields, amplify fractals)",
+    "spiral_B_field": "5-20 \u03bcG (moderate fields)",
+    "massive_B_field": "20-50 \u03bcG (strong fields, suppress fractals)"
+  },
+  "results": {
+    "original": [
+      23.36042368192517,
+      67.62646307816073,
+      44.14112461655741,
+      21.63805363831117,
+      102.8581548621057
+    ],
+    "magnetic": [
+      41.743202168449955,
+      48.635500876853904,
+      106.03407102136002,
+      113.67148329484345,
+      218.29951289358095
+    ],
+    "galaxy_names": [
+      "DDO154",
+      "NGC2403",
+      "NGC3198",
+      "NGC6946",
+      "MW"
+    ],
+    "galaxy_types": [
+      "dwarf",
+      "spiral",
+      "massive",
+      "massive",
+      "spiral"
+    ],
+    "B_fields_central": [
+      2.8182391884404274,
+      11.27295675376171,
+      32.879457198471655,
+      32.879457198471655,
+      11.27295675376171
+    ],
+    "coupling_factors": [
+      1.207342330745022,
+      0.9937149092014034,
+      0.5358185813620608,
+      0.5004421011000982,
+      1.0324166884727095
+    ]
+  },
+  "type_analysis": {
+    "dwarf": {
+      "avg_original": 23.36042368192517,
+      "avg_magnetic": 41.743202168449955,
+      "improvement": -18.382778486524785,
+      "percent": -78.69197381359237,
+      "avg_B_field": 2.8182391884404274,
+      "avg_coupling": 1.207342330745022,
+      "galaxies": [
+        "DDO154"
+      ]
+    },
+    "spiral": {
+      "avg_original": 85.24230897013322,
+      "avg_magnetic": 133.46750688521743,
+      "improvement": -48.22519791508421,
+      "percent": -56.57425109399736,
+      "avg_B_field": 11.27295675376171,
+      "avg_coupling": 1.0130657988370564,
+      "galaxies": [
+        "NGC2403",
+        "MW"
+      ]
+    },
+    "massive": {
+      "avg_original": 32.88958912743429,
+      "avg_magnetic": 109.85277715810173,
+      "improvement": -76.96318803066744,
+      "percent": -234.00471113356022,
+      "avg_B_field": 32.879457198471655,
+      "avg_coupling": 0.5181303412310796,
+      "galaxies": [
+        "NGC3198",
+        "NGC6946"
+      ]
+    }
+  }
+}

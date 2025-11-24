@@ -1,0 +1,67 @@
+{
+  "timestamp": "2025-11-23T03:03:52.534157",
+  "model_type": "BreakthroughTrinitariaModel",
+  "breakthrough_target": "NGC2403 +26.3%",
+  "results": [
+    {
+      "galaxy_name": "NGC2403",
+      "is_ngc2403_special": true,
+      "classification_confidence": 1.0,
+      "strategy": "NGC2403-BREAKTHROUGH (coupling: 10.0)",
+      "rms_base": 67.62646307816073,
+      "rms_final": 91.47122648017448,
+      "improvement": -23.844763402013754,
+      "percent_improvement": -35.25951575266425,
+      "magnetic_effect": 100.0,
+      "breakthrough_applied": true
+    },
+    {
+      "galaxy_name": "MW",
+      "is_ngc2403_special": false,
+      "classification_confidence": 0.0,
+      "strategy": "Conservative",
+      "rms_base": 102.8581548621057,
+      "rms_final": 102.24608981699335,
+      "improvement": 0.6120650451123595,
+      "percent_improvement": 0.5950573835714918,
+      "magnetic_effect": 0.0,
+      "breakthrough_applied": false
+    },
+    {
+      "galaxy_name": "NGC6503",
+      "is_ngc2403_special": false,
+      "classification_confidence": 0.0,
+      "strategy": "Conservative",
+      "rms_base": 37.97121568077503,
+      "rms_final": 38.27809843869729,
+      "improvement": -0.30688275792225994,
+      "percent_improvement": -0.8081984008682551,
+      "magnetic_effect": 0.0,
+      "breakthrough_applied": false
+    },
+    {
+      "galaxy_name": "NGC3198",
+      "is_ngc2403_special": false,
+      "classification_confidence": 0.0,
+      "strategy": "Conservative",
+      "rms_base": 44.14112461655741,
+      "rms_final": 44.30432197704351,
+      "improvement": -0.16319736048609457,
+      "percent_improvement": -0.36971726910845165,
+      "magnetic_effect": 0.0,
+      "breakthrough_applied": false
+    },
+    {
+      "galaxy_name": "DDO154",
+      "is_ngc2403_special": false,
+      "classification_confidence": 0.0,
+      "strategy": "Conservative",
+      "rms_base": 23.36042368192517,
+      "rms_final": 23.59954394219696,
+      "improvement": -0.23912026027178968,
+      "percent_improvement": -1.0236126858298633,
+      "magnetic_effect": 0.0,
+      "breakthrough_applied": false
+    }
+  ]
+}

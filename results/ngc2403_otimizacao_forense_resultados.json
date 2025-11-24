@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-11-23T14:05:09.983885",
+  "analysis_type": "NGC2403_Optimized_Configurations",
+  "baseline_rms": 67.62646307816073,
+  "theoretical_max_percent": 88.5,
+  "historical_record_percent": 28.1,
+  "results": [
+    {
+      "config": "experimental_push",
+      "rms_baseline": 67.62646307816073,
+      "rms_optimized": 45.926774303892536,
+      "improvement": 21.69968877426819,
+      "percent_improvement": 32.08757014127489,
+      "magnetic_effect": 26.0,
+      "coupling_avg": 1.1006608154682203,
+      "B_field_central": 10.103475438341473
+    },
+    {
+      "config": "ultra_optimized",
+      "rms_baseline": 67.62646307816073,
+      "rms_optimized": 46.02339554261933,
+      "improvement": 21.603067535541392,
+      "percent_improvement": 31.94469524537042,
+      "magnetic_effect": 27.0,
+      "coupling_avg": 1.1322093957038997,
+      "B_field_central": 9.795575584065048
+    },
+    {
+      "config": "optimal_forensic",
+      "rms_baseline": 67.62646307816073,
+      "rms_optimized": 46.039578881565,
+      "improvement": 21.586884196595726,
+      "percent_improvement": 31.920764762821065,
+      "magnetic_effect": 25.0,
+      "coupling_avg": 1.073377474795954,
+      "B_field_central": 10.316996787055265
+    },
+    {
+      "config": "historical_28_1",
+      "rms_baseline": 67.62646307816073,
+      "rms_optimized": 46.08535381686294,
+      "improvement": 21.541109261297784,
+      "percent_improvement": 31.85307685898224,
+      "magnetic_effect": 24.4,
+      "coupling_avg": 1.0262878628859577,
+      "B_field_central": 10.615367609792278
+    }
+  ]
+}

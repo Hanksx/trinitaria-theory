@@ -1,0 +1,170 @@
+{
+  "timestamp": "2025-11-23T00:58:34.824259",
+  "execution_time_seconds": 0.070667,
+  "most_sensitive_galaxy": {
+    "name": "IC342",
+    "sensitivity": 4.02974986210171,
+    "rms_70": 96.14355312129165,
+    "rms_80": 92.11380325918994
+  },
+  "optimal_limiter_factor": 0.9000000000000001,
+  "optimization_results": {
+    "optimal_rms": 87.77905992031677,
+    "improvement": 8.364493200974877
+  },
+  "validation_results": {
+    "optimal_limiter": 0.9000000000000001,
+    "baseline_mean": 60.00912479583276,
+    "optimized_mean": 57.90637539249517,
+    "mean_improvement": 2.10274940333759,
+    "improvement_percentage": 3.504049443300017,
+    "improved_count": 7,
+    "total_galaxies": 17,
+    "individual_results": [
+      {
+        "name": "IC342",
+        "baseline_rms": 96.14355312129165,
+        "optimized_rms": 87.77905992031677,
+        "improvement": 8.364493200974877
+      },
+      {
+        "name": "UGC2885",
+        "baseline_rms": 49.314684093434025,
+        "optimized_rms": 42.95769705726426,
+        "improvement": 6.3569870361697625
+      },
+      {
+        "name": "NGC5194",
+        "baseline_rms": 82.32462974502758,
+        "optimized_rms": 76.12892342308618,
+        "improvement": 6.195706321941401
+      },
+      {
+        "name": "NGC2841",
+        "baseline_rms": 101.4889009143044,
+        "optimized_rms": 95.35051384860867,
+        "improvement": 6.138387065695724
+      },
+      {
+        "name": "NGC3521",
+        "baseline_rms": 117.7857695254448,
+        "optimized_rms": 112.22152106330505,
+        "improvement": 5.5642484621397585
+      },
+      {
+        "name": "MOCK045",
+        "baseline_rms": 82.69286667672611,
+        "optimized_rms": 77.44286691149367,
+        "improvement": 5.249999765232445
+      },
+      {
+        "name": "NGC5055",
+        "baseline_rms": 19.666360986310945,
+        "optimized_rms": 16.847124752041278,
+        "improvement": 2.819236234269667
+      },
+      {
+        "name": "NGC3198",
+        "baseline_rms": 42.46288656590978,
+        "optimized_rms": 44.78278625768037,
+        "improvement": -2.319899691770594
+      },
+      {
+        "name": "NGC6946",
+        "baseline_rms": 16.481907306247184,
+        "optimized_rms": 18.91942488932083,
+        "improvement": -2.437517583073646
+      },
+      {
+        "name": "NGC7331",
+        "baseline_rms": 25.379310604434615,
+        "optimized_rms": 25.56421155927493,
+        "improvement": -0.184900954840316
+      },
+      {
+        "name": "NGC2403",
+        "baseline_rms": 74.44372327743541,
+        "optimized_rms": 74.44372327743541,
+        "improvement": 0.0
+      },
+      {
+        "name": "MOCK040",
+        "baseline_rms": 44.31952687217074,
+        "optimized_rms": 44.31952687217074,
+        "improvement": 0.0
+      },
+      {
+        "name": "NGC4826",
+        "baseline_rms": 58.07875261909081,
+        "optimized_rms": 58.07875261909081,
+        "improvement": 0.0
+      },
+      {
+        "name": "MOCK035",
+        "baseline_rms": 40.397168899574716,
+        "optimized_rms": 40.397168899574716,
+        "improvement": 0.0
+      },
+      {
+        "name": "MOCK042",
+        "baseline_rms": 14.369109218341595,
+        "optimized_rms": 14.369109218341595,
+        "improvement": 0.0
+      },
+      {
+        "name": "MOCK037",
+        "baseline_rms": 64.51288726614469,
+        "optimized_rms": 64.51288726614469,
+        "improvement": 0.0
+      },
+      {
+        "name": "MW",
+        "baseline_rms": 90.29308383726803,
+        "optimized_rms": 90.29308383726803,
+        "improvement": 0.0
+      }
+    ]
+  },
+  "sensitivity_ranking": [
+    {
+      "name": "IC342",
+      "sensitivity": 4.02974986210171
+    },
+    {
+      "name": "UGC2885",
+      "sensitivity": 3.1227748761747023
+    },
+    {
+      "name": "NGC5194",
+      "sensitivity": 2.989611817962029
+    },
+    {
+      "name": "NGC2841",
+      "sensitivity": 2.9385732564240783
+    },
+    {
+      "name": "NGC3521",
+      "sensitivity": 2.669099121191266
+    },
+    {
+      "name": "MOCK045",
+      "sensitivity": 2.524071312950838
+    },
+    {
+      "name": "NGC5055",
+      "sensitivity": 1.8687471822443342
+    },
+    {
+      "name": "NGC3198",
+      "sensitivity": 0.9145111372330277
+    },
+    {
+      "name": "NGC6946",
+      "sensitivity": 0.7017072267728786
+    },
+    {
+      "name": "NGC7331",
+      "sensitivity": 0.23612355271953334
+    }
+  ]
+}

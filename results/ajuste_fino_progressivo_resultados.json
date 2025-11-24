@@ -1,0 +1,221 @@
+{
+  "timestamp": "2025-11-23T13:08:55.806589",
+  "model_type": "ProgressiveTrinitariaModel",
+  "target_improvement": "+26.3% for NGC2403",
+  "best_level": "conservative",
+  "best_improvement": 1.0421206241500152,
+  "all_results": {
+    "conservative": [
+      {
+        "galaxy_name": "NGC2403",
+        "is_ngc2403_special": true,
+        "classification_confidence": 1.0,
+        "level": "conservative",
+        "strategy": "NGC2403-conservative (coupling: 2.31)",
+        "rms_base": 67.62646307816073,
+        "rms_final": 66.92171375904002,
+        "improvement": 0.7047493191207082,
+        "percent_improvement": 1.0421206241500152,
+        "magnetic_effect": 18.0,
+        "level_params": {
+          "coupling_intensity": 1.5,
+          "fractal_scale_factor": 0.3,
+          "ngc2403_boost": 1.2
+        }
+      },
+      {
+        "galaxy_name": "MW",
+        "is_ngc2403_special": false,
+        "classification_confidence": 0.0,
+        "level": "conservative",
+        "strategy": "Conservative-conservative",
+        "rms_base": 102.8581548621057,
+        "rms_final": 102.61328316509432,
+        "improvement": 0.24487169701139067,
+        "percent_improvement": 0.23806736309792062,
+        "magnetic_effect": 0.0,
+        "level_params": {
+          "coupling_intensity": 1.5,
+          "fractal_scale_factor": 0.3,
+          "ngc2403_boost": 1.2
+        }
+      },
+      {
+        "galaxy_name": "NGC6503",
+        "is_ngc2403_special": false,
+        "classification_confidence": 0.0,
+        "level": "conservative",
+        "strategy": "Conservative-conservative",
+        "rms_base": 37.97121568077503,
+        "rms_final": 38.093272273879855,
+        "improvement": -0.12205659310482275,
+        "percent_improvement": -0.3214450496685584,
+        "magnetic_effect": 0.0,
+        "level_params": {
+          "coupling_intensity": 1.5,
+          "fractal_scale_factor": 0.3,
+          "ngc2403_boost": 1.2
+        }
+      }
+    ],
+    "moderate": [
+      {
+        "galaxy_name": "NGC2403",
+        "is_ngc2403_special": true,
+        "classification_confidence": 1.0,
+        "level": "moderate",
+        "strategy": "NGC2403-moderate (coupling: 2.53)",
+        "rms_base": 67.62646307816073,
+        "rms_final": 67.13372778185635,
+        "improvement": 0.4927352963043745,
+        "percent_improvement": 0.7286131402952203,
+        "magnetic_effect": 27.0,
+        "level_params": {
+          "coupling_intensity": 2.5,
+          "fractal_scale_factor": 0.6,
+          "ngc2403_boost": 1.8
+        }
+      },
+      {
+        "galaxy_name": "MW",
+        "is_ngc2403_special": false,
+        "classification_confidence": 0.0,
+        "level": "moderate",
+        "strategy": "Conservative-moderate",
+        "rms_base": 102.8581548621057,
+        "rms_final": 102.61328316509432,
+        "improvement": 0.24487169701139067,
+        "percent_improvement": 0.23806736309792062,
+        "magnetic_effect": 0.0,
+        "level_params": {
+          "coupling_intensity": 2.5,
+          "fractal_scale_factor": 0.6,
+          "ngc2403_boost": 1.8
+        }
+      },
+      {
+        "galaxy_name": "NGC6503",
+        "is_ngc2403_special": false,
+        "classification_confidence": 0.0,
+        "level": "moderate",
+        "strategy": "Conservative-moderate",
+        "rms_base": 37.97121568077503,
+        "rms_final": 38.093272273879855,
+        "improvement": -0.12205659310482275,
+        "percent_improvement": -0.3214450496685584,
+        "magnetic_effect": 0.0,
+        "level_params": {
+          "coupling_intensity": 2.5,
+          "fractal_scale_factor": 0.6,
+          "ngc2403_boost": 1.8
+        }
+      }
+    ],
+    "aggressive": [
+      {
+        "galaxy_name": "NGC2403",
+        "is_ngc2403_special": true,
+        "classification_confidence": 1.0,
+        "level": "aggressive",
+        "strategy": "NGC2403-aggressive (coupling: 2.81)",
+        "rms_base": 67.62646307816073,
+        "rms_final": 67.49207291028125,
+        "improvement": 0.13439016787947367,
+        "percent_improvement": 0.19872422977991522,
+        "magnetic_effect": 37.5,
+        "level_params": {
+          "coupling_intensity": 4.0,
+          "fractal_scale_factor": 1.0,
+          "ngc2403_boost": 2.5
+        }
+      },
+      {
+        "galaxy_name": "MW",
+        "is_ngc2403_special": false,
+        "classification_confidence": 0.0,
+        "level": "aggressive",
+        "strategy": "Conservative-aggressive",
+        "rms_base": 102.8581548621057,
+        "rms_final": 102.61328316509432,
+        "improvement": 0.24487169701139067,
+        "percent_improvement": 0.23806736309792062,
+        "magnetic_effect": 0.0,
+        "level_params": {
+          "coupling_intensity": 4.0,
+          "fractal_scale_factor": 1.0,
+          "ngc2403_boost": 2.5
+        }
+      },
+      {
+        "galaxy_name": "NGC6503",
+        "is_ngc2403_special": false,
+        "classification_confidence": 0.0,
+        "level": "aggressive",
+        "strategy": "Conservative-aggressive",
+        "rms_base": 37.97121568077503,
+        "rms_final": 38.093272273879855,
+        "improvement": -0.12205659310482275,
+        "percent_improvement": -0.3214450496685584,
+        "magnetic_effect": 0.0,
+        "level_params": {
+          "coupling_intensity": 4.0,
+          "fractal_scale_factor": 1.0,
+          "ngc2403_boost": 2.5
+        }
+      }
+    ],
+    "breakthrough": [
+      {
+        "galaxy_name": "NGC2403",
+        "is_ngc2403_special": true,
+        "classification_confidence": 1.0,
+        "level": "breakthrough",
+        "strategy": "NGC2403-breakthrough (coupling: 2.92)",
+        "rms_base": 67.62646307816073,
+        "rms_final": 68.21933596030252,
+        "improvement": -0.5928728821417906,
+        "percent_improvement": -0.8766876976200353,
+        "magnetic_effect": 52.5,
+        "level_params": {
+          "coupling_intensity": 6.0,
+          "fractal_scale_factor": 1.5,
+          "ngc2403_boost": 3.5
+        }
+      },
+      {
+        "galaxy_name": "MW",
+        "is_ngc2403_special": false,
+        "classification_confidence": 0.0,
+        "level": "breakthrough",
+        "strategy": "Conservative-breakthrough",
+        "rms_base": 102.8581548621057,
+        "rms_final": 102.61328316509432,
+        "improvement": 0.24487169701139067,
+        "percent_improvement": 0.23806736309792062,
+        "magnetic_effect": 0.0,
+        "level_params": {
+          "coupling_intensity": 6.0,
+          "fractal_scale_factor": 1.5,
+          "ngc2403_boost": 3.5
+        }
+      },
+      {
+        "galaxy_name": "NGC6503",
+        "is_ngc2403_special": false,
+        "classification_confidence": 0.0,
+        "level": "breakthrough",
+        "strategy": "Conservative-breakthrough",
+        "rms_base": 37.97121568077503,
+        "rms_final": 38.093272273879855,
+        "improvement": -0.12205659310482275,
+        "percent_improvement": -0.3214450496685584,
+        "magnetic_effect": 0.0,
+        "level_params": {
+          "coupling_intensity": 6.0,
+          "fractal_scale_factor": 1.5,
+          "ngc2403_boost": 3.5
+        }
+      }
+    ]
+  }
+}

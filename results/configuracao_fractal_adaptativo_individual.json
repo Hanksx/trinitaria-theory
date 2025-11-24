@@ -1,0 +1,256 @@
+{
+  "timestamp": "2025-11-23T00:29:53.018181",
+  "results": {
+    "light": {
+      "mean_rms": 34.43139378308189,
+      "success_rate": 0.3125,
+      "success_count": 5,
+      "total_galaxies": 16,
+      "mean_decay_adjustment": 1.1601057561502433,
+      "mean_reach_adjustment": 0.8,
+      "adaptation_std": 0.01984204249314676
+    },
+    "medium": {
+      "mean_rms": 32.316160301548905,
+      "success_rate": 0.23529411764705882,
+      "success_count": 4,
+      "total_galaxies": 17,
+      "mean_decay_adjustment": 1.0756126549338005,
+      "mean_reach_adjustment": 0.8,
+      "adaptation_std": 0.031098330897756436
+    },
+    "heavy": {
+      "mean_rms": 61.60845328806565,
+      "success_rate": 0.17647058823529413,
+      "success_count": 3,
+      "total_galaxies": 17,
+      "mean_decay_adjustment": 1.0283645971183277,
+      "mean_reach_adjustment": 0.8,
+      "adaptation_std": 0.036872606644110906
+    }
+  },
+  "overall_stats": {
+    "overall_rms": 42.78533579089881,
+    "overall_success_rate": 0.24,
+    "total_success": 12,
+    "total_galaxies": 50
+  },
+  "adaptation_examples": [
+    {
+      "name": "DDO154",
+      "category": "light",
+      "rms": 23.390747423182805,
+      "characteristics": {
+        "base_category": "light",
+        "M_total": 1100000000.0,
+        "R_max": 5.68115631568003,
+        "V_max": 57.93958857706616,
+        "concentration_index": 0.8360683361209712,
+        "gradient_normalized": -0.662734308428706,
+        "density_contrast": 1.000678129875096,
+        "smoothness": 0.5922605032598751,
+        "bulge_fraction": 0.09090909090909091,
+        "log_compactness": 0.7780824683016391
+      },
+      "adaptations": {
+        "base_category": "light",
+        "decay_adjustment": 1.138684866280358,
+        "reach_adjustment": 0.8,
+        "modulation_adjustment": 0.9350565012966018,
+        "concentration_adjustment": 1.0368344891571708,
+        "characteristics": {
+          "base_category": "light",
+          "M_total": 1100000000.0,
+          "R_max": 5.68115631568003,
+          "V_max": 57.93958857706616,
+          "concentration_index": 0.8360683361209712,
+          "gradient_normalized": -0.662734308428706,
+          "density_contrast": 1.000678129875096,
+          "smoothness": 0.5922605032598751,
+          "bulge_fraction": 0.09090909090909091,
+          "log_compactness": 0.7780824683016391
+        }
+      }
+    },
+    {
+      "name": "DDO170",
+      "category": "light",
+      "rms": 23.466737593739502,
+      "characteristics": {
+        "base_category": "light",
+        "M_total": 1820000000.0,
+        "R_max": 5.863800243470724,
+        "V_max": 55.70205550195059,
+        "concentration_index": 0.7333715413624985,
+        "gradient_normalized": -0.08840600021433337,
+        "density_contrast": 0.776091858526193,
+        "smoothness": 0.0,
+        "bulge_fraction": 0.01098901098901099,
+        "log_compactness": 0.955533886426263
+      },
+      "adaptations": {
+        "base_category": "light",
+        "decay_adjustment": 1.1310802516188794,
+        "reach_adjustment": 0.8,
+        "modulation_adjustment": 1.0106373626373626,
+        "concentration_adjustment": 1.0347731249220593,
+        "characteristics": {
+          "base_category": "light",
+          "M_total": 1820000000.0,
+          "R_max": 5.863800243470724,
+          "V_max": 55.70205550195059,
+          "concentration_index": 0.7333715413624985,
+          "gradient_normalized": -0.08840600021433337,
+          "density_contrast": 0.776091858526193,
+          "smoothness": 0.0,
+          "bulge_fraction": 0.01098901098901099,
+          "log_compactness": 0.955533886426263
+        }
+      }
+    },
+    {
+      "name": "MOCK041",
+      "category": "medium",
+      "rms": 36.20592042322255,
+      "characteristics": {
+        "base_category": "light",
+        "M_total": 11042237779.417957,
+        "R_max": 10.467432520440326,
+        "V_max": 146.69397571724895,
+        "concentration_index": 0.5437845046231237,
+        "gradient_normalized": -0.0009911049576968767,
+        "density_contrast": 0.44916840829399485,
+        "smoothness": 0.49330727133279306,
+        "bulge_fraction": 0.15602399017416613,
+        "log_compactness": 0.9835365853173169
+      },
+      "adaptations": {
+        "base_category": "light",
+        "decay_adjustment": 1.098432345699225,
+        "reach_adjustment": 0.8,
+        "modulation_adjustment": 0.966516594228553,
+        "concentration_adjustment": 0.997023974523879,
+        "characteristics": {
+          "base_category": "light",
+          "M_total": 11042237779.417957,
+          "R_max": 10.467432520440326,
+          "V_max": 146.69397571724895,
+          "concentration_index": 0.5437845046231237,
+          "gradient_normalized": -0.0009911049576968767,
+          "density_contrast": 0.44916840829399485,
+          "smoothness": 0.49330727133279306,
+          "bulge_fraction": 0.15602399017416613,
+          "log_compactness": 0.9835365853173169
+        }
+      }
+    },
+    {
+      "name": "MOCK030",
+      "category": "medium",
+      "rms": 45.41660702369937,
+      "characteristics": {
+        "base_category": "light",
+        "M_total": 13334409581.232811,
+        "R_max": 9.224768386937903,
+        "V_max": 155.40410968193453,
+        "concentration_index": 0.5861895379503016,
+        "gradient_normalized": -0.7197218080226766,
+        "density_contrast": 0.6363848444483401,
+        "smoothness": 0.7320294689183569,
+        "bulge_fraction": 0.7058257075809437,
+        "log_compactness": 1.2301073783842913
+      },
+      "adaptations": {
+        "base_category": "light",
+        "decay_adjustment": 1.116627373113917,
+        "reach_adjustment": 0.8,
+        "modulation_adjustment": 1.0602734547924895,
+        "concentration_adjustment": 1.0052566793775721,
+        "characteristics": {
+          "base_category": "light",
+          "M_total": 13334409581.232811,
+          "R_max": 9.224768386937903,
+          "V_max": 155.40410968193453,
+          "concentration_index": 0.5861895379503016,
+          "gradient_normalized": -0.7197218080226766,
+          "density_contrast": 0.6363848444483401,
+          "smoothness": 0.7320294689183569,
+          "bulge_fraction": 0.7058257075809437,
+          "log_compactness": 1.2301073783842913
+        }
+      }
+    },
+    {
+      "name": "NGC2403",
+      "category": "heavy",
+      "rms": 70.75502779079812,
+      "characteristics": {
+        "base_category": "medium",
+        "M_total": 45000000000.0,
+        "R_max": 15.143251861259774,
+        "V_max": 87.88213878625614,
+        "concentration_index": 0.40262374536289186,
+        "gradient_normalized": -0.6848842541913893,
+        "density_contrast": 0.3979814588059181,
+        "smoothness": 0.852009004662543,
+        "bulge_fraction": 0.1111111111111111,
+        "log_compactness": 1.112555077103141
+      },
+      "adaptations": {
+        "base_category": "medium",
+        "decay_adjustment": 1.0790679200563795,
+        "reach_adjustment": 0.8,
+        "modulation_adjustment": 0.8983452259206598,
+        "concentration_adjustment": 0.9729671281663899,
+        "characteristics": {
+          "base_category": "medium",
+          "M_total": 45000000000.0,
+          "R_max": 15.143251861259774,
+          "V_max": 87.88213878625614,
+          "concentration_index": 0.40262374536289186,
+          "gradient_normalized": -0.6848842541913893,
+          "density_contrast": 0.3979814588059181,
+          "smoothness": 0.852009004662543,
+          "bulge_fraction": 0.1111111111111111,
+          "log_compactness": 1.112555077103141
+        }
+      }
+    },
+    {
+      "name": "MOCK040",
+      "category": "heavy",
+      "rms": 40.83811238967418,
+      "characteristics": {
+        "base_category": "medium",
+        "M_total": 45195178519.87594,
+        "R_max": 18.138612473639768,
+        "V_max": 124.3011641245978,
+        "concentration_index": 0.3217832724264754,
+        "gradient_normalized": 0.035288281769439114,
+        "density_contrast": 0.25191069291191465,
+        "smoothness": 0.7204073959818553,
+        "bulge_fraction": 0.6343347300512908,
+        "log_compactness": 0.879279919218509
+      },
+      "adaptations": {
+        "base_category": "medium",
+        "decay_adjustment": 1.0526479966456355,
+        "reach_adjustment": 0.8,
+        "modulation_adjustment": 1.0449751518552128,
+        "concentration_adjustment": 0.9612093906516624,
+        "characteristics": {
+          "base_category": "medium",
+          "M_total": 45195178519.87594,
+          "R_max": 18.138612473639768,
+          "V_max": 124.3011641245978,
+          "concentration_index": 0.3217832724264754,
+          "gradient_normalized": 0.035288281769439114,
+          "density_contrast": 0.25191069291191465,
+          "smoothness": 0.7204073959818553,
+          "bulge_fraction": 0.6343347300512908,
+          "log_compactness": 0.879279919218509
+        }
+      }
+    }
+  ]
+}

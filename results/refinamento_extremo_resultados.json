@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-11-23T14:23:33.619267",
+  "analysis_type": "Extreme_Automated_Refinement",
+  "theoretical_max_percent": 88.5,
+  "current_best_percent": 32.1,
+  "results": {
+    "fibonacci_extreme": {
+      "config": {
+        "name": "fibonacci_extreme",
+        "B_central": 10.35,
+        "B_critical": 18.2,
+        "B_gradient": 0.15,
+        "amplification": 0.445,
+        "suppression": 0.255,
+        "magnetic_penetration": 0.845,
+        "decay_scale": 7.18,
+        "v_magnetic_max": 27.2,
+        "decay_rate": 2.06,
+        "mod_strength": 0.172,
+        "concentration": 0.322,
+        "L": 7.15,
+        "Q": 4.32,
+        "N": 5,
+        "forma_params": [
+          2.58,
+          0.134,
+          26.5
+        ],
+        "limiter_factor": 1.11,
+        "relativistic_correction": 0.08,
+        "quantum_coupling": 0.12,
+        "nonlinear_factor": 1.25,
+        "coherence_length": 3.8,
+        "symmetry_breaking": 0.06
+      },
+      "performance": {
+        "improvement_percent": 48.85730249470758,
+        "rms_estimate": 34.58780632282926,
+        "confidence": 0.81,
+        "breakthrough_potential": 

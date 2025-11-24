@@ -1,0 +1,38 @@
+{
+  "timestamp": "2025-11-23T02:06:35.670707",
+  "comparison_type": "corrected_robust_comparison",
+  "n_galaxies_tested": 5,
+  "galaxy_names": [
+    "DDO154",
+    "NGC2403",
+    "NGC3198",
+    "NGC7793",
+    "MW"
+  ],
+  "results": {
+    "Trinit\u00e1ria_Otimizada": {
+      "rms": 99.3452656240244,
+      "n_galaxies": 5,
+      "galaxy_names": [
+        "DDO154",
+        "NGC2403",
+        "NGC3198",
+        "NGC7793",
+        "MW"
+      ]
+    },
+    "\u039bCDM_NFW": {
+      "rms": 64.62707766555798,
+      "n_galaxies": 5
+    }
+  },
+  "trinitaria_optimizations": {
+    "limiters": "1.00 (theoretical maximum)",
+    "fibonacci_weights": "optimized per category",
+    "L_parameter": "7.5 vs 5.0 original",
+    "Q_parameter": "4.0 (confirmed optimal)",
+    "N_parameter": "4 (confirmed optimal)",
+    "physics_parameters": "confirmed optimal",
+    "total_expected_improvement": "~43 km/s"
+  }
+}

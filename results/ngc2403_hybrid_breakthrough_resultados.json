@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-11-23T14:31:25.169064",
+  "model": "hybrid_breakthrough",
+  "galaxy": "NGC2403",
+  "rms_achieved": 193.52221854964972,
+  "improvement_percent": -186.14848225587716,
+  "vs_lambda_cdm_percent": -158.0296247328663,
+  "vs_mond_percent": -233.65899749939607,
+  "breakthrough_achieved": 

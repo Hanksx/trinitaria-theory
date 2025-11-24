@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-11-23T00:15:19.583941",
+  "final_fractal_params": {
+    "light": {
+      "decay_rate": 1.8,
+      "modulation_strength": 0.2
+    },
+    "medium": {
+      "decay_rate": 2.2,
+      "modulation_strength": 0.15
+    },
+    "heavy": {
+      "decay_rate": 2.0,
+      "modulation_strength": 0.15
+    }
+  },
+  "results": {
+    "light": {
+      "mean_rms": 34.073728123678826,
+      "success_rate": 0.3125,
+      "success_count": 5,
+      "total_galaxies": 16
+    },
+    "medium": {
+      "mean_rms": 32.58953457701685,
+      "success_rate": 0.17647058823529413,
+      "success_count": 3,
+      "total_galaxies": 17
+    },
+    "heavy": {
+      "mean_rms": 59.53516548094501,
+      "success_rate": 0.17647058823529413,
+      "success_count": 3,
+      "total_galaxies": 17
+    }
+  },
+  "overall_stats": {
+    "overall_rms": 42.06614272721356,
+    "overall_success_rate": 0.22,
+    "total_success": 11,
+    "total_galaxies": 50
+  }
+}

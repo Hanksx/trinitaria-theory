@@ -1,0 +1,87 @@
+{
+  "timestamp": "2025-11-23T02:53:22.275549",
+  "model_type": "TrinitariaHybridFinal_NGC2403_Reverse",
+  "ngc2403_type_detected": 2,
+  "reverse_type": 5,
+  "total_improvement": -0.9100878508571242,
+  "mean_improvement": -0.1300125501224463,
+  "results_summary": [
+    {
+      "galaxy_name": "NGC2403",
+      "is_ngc2403_type": true,
+      "classification_confidence": 1.0,
+      "magnetic_type": "NGC2403-optimized",
+      "rms_base": 67.62646307816073,
+      "rms_final": 68.3517719462386,
+      "improvement": -0.7253088680778745,
+      "percent_improvement": -1.0725222569152897,
+      "v_magnetic_max": 21.056297074871605
+    },
+    {
+      "galaxy_name": "MW",
+      "is_ngc2403_type": false,
+      "classification_confidence": 0.25,
+      "magnetic_type": "Reverse-strategy",
+      "rms_base": 102.8581548621057,
+      "rms_final": 102.85736127711782,
+      "improvement": 0.0007935849878890622,
+      "percent_improvement": 0.0007715333693793775,
+      "v_magnetic_max": 0.8002263879891942
+    },
+    {
+      "galaxy_name": "NGC6503",
+      "is_ngc2403_type": true,
+      "classification_confidence": 0.5,
+      "magnetic_type": "NGC2403-optimized",
+      "rms_base": 37.97121568077503,
+      "rms_final": 38.14812765755187,
+      "improvement": -0.1769119767768359,
+      "percent_improvement": -0.4659107526715482,
+      "v_magnetic_max": 21.056297074871605
+    },
+    {
+      "galaxy_name": "NGC3198",
+      "is_ngc2403_type": false,
+      "classification_confidence": 0.25,
+      "magnetic_type": "Reverse-strategy",
+      "rms_base": 44.14112461655741,
+      "rms_final": 44.141500298216755,
+      "improvement": -0.00037568165934231956,
+      "percent_improvement": -0.0008510921790184764,
+      "v_magnetic_max": 0.8685273830035333
+    },
+    {
+      "galaxy_name": "DDO154",
+      "is_ngc2403_type": false,
+      "classification_confidence": 0.25,
+      "magnetic_type": "Reverse-strategy",
+      "rms_base": 23.36042368192517,
+      "rms_final": 23.369712109898774,
+      "improvement": -0.00928842797360474,
+      "percent_improvement": -0.03976138489642011,
+      "v_magnetic_max": 1.733883472484564
+    },
+    {
+      "galaxy_name": "NGC6946",
+      "is_ngc2403_type": false,
+      "classification_confidence": 0.25,
+      "magnetic_type": "Reverse-strategy",
+      "rms_base": 21.63805363831117,
+      "rms_final": 21.638128244136187,
+      "improvement": -7.460582501650492e-05,
+      "percent_improvement": -0.0003447899070016717,
+      "v_magnetic_max": 0.7940316693548519
+    },
+    {
+      "galaxy_name": "NGC7793",
+      "is_ngc2403_type": false,
+      "classification_confidence": 0.25,
+      "magnetic_type": "Reverse-strategy",
+      "rms_base": 38.925597923042616,
+      "rms_final": 38.924519798574956,
+      "improvement": 0.001078124467660757,
+      "percent_improvement": 0.0027697056055304534,
+      "v_magnetic_max": 1.7312069765563314
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "timestamp": "2025-11-23T13:13:43.561989",
+  "model_type": "PlateauEscapeTrinitariaModel",
+  "objective": "Escape from +1.04% plateau to +26.3%",
+  "plateau_base": 1.04,
+  "target_improvement": 26.3,
+  "breakthrough_gain": -82.67062422588816,
+  "success_level": "PLATEAU_PERSISTENTE",
+  "results": [
+    {
+      "galaxy_name": "NGC2403",
+      "is_ngc2403_breakthrough": true,
+      "classification_confidence": 1.0,
+      "strategy": "NGC2403-REVOLUTIONARY (coupling: 11.5)",
+      "rms_base": 67.62646307816073,
+      "rms_final": 122.83036703075311,
+      "improvement": -55.203903952592384,
+      "percent_improvement": -81.63062422588816,
+      "magnetic_effect": 200.0,
+      "plateau_escaped": true
+    },
+    {
+      "galaxy_name": "MW",
+      "is_ngc2403_breakthrough": false,
+      "classification_confidence": 0.0,
+      "strategy": "Conservative-Revolutionary",
+      "rms_base": 102.8581548621057,
+      "rms_final": 102.79693125858195,
+      "improvement": 0.06122360352375722,
+      "percent_improvement": 0.059522362233539156,
+      "magnetic_effect": 0.0,
+      "plateau_escaped": false
+    },
+    {
+      "galaxy_name": "NGC6503",
+      "is_ngc2403_breakthrough": false,
+      "classification_confidence": 0.0,
+      "strategy": "Conservative-Revolutionary",
+      "rms_base": 37.97121568077503,
+      "rms_final": 38.001642134013174,
+      "improvement": -0.030426453238142415,
+      "percent_improvement": -0.08013031105966786,
+      "magnetic_effect": 0.0,
+      "plateau_escaped": false
+    }
+  ]
+}
